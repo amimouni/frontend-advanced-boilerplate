@@ -1,0 +1,21 @@
+.banner {
+  background-image: image-url('anna_banner.jpg');
+  color: white;
+  background-size: cover;
+  position: relative;
+  .banner-content {
+    padding: 150px 0;
+    height: 650px;
+    padding-left: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+    color: white;
+    // font-family: $brandon-light;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+  }
+}
