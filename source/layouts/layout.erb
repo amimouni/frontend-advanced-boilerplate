@@ -11,10 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Anna Mimouni, Creative Designer" %></title>
 
     <%= stylesheet_link_tag "all" %>
-    <%= javascript_include_tag  "all" %>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -25,8 +24,11 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "navbar" %>
 
     <%= yield %>
+    <%= partial "footer" %>
+    <%= javascript_include_tag  "all" %>
 
   </body>
 </html>

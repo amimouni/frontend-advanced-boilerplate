@@ -1,0 +1,164 @@
+#footer {
+  background: $gray-darker;
+  padding: 0 0 0px 0;
+  color: $gray-lighter;
+  h1 {
+    margin: 20px 0px 20px 0px;
+    color: $gray-lighter;
+  }
+  p {
+    margin-top: 0.3em;
+    font-size: 16px;
+    font-weight: lighter;
+    color: $gray-light;
+    letter-spacing: 1px;
+  }
+  ul {
+    margin-top: 10px;
+  }
+  a {
+    color: $gray-lighter;
+    // font-size: 30px;
+    // letter-spacing: 20px;
+    transition: color 0.5s ease;
+    &:hover{
+      color: $red;
+    }
+  }
+
+  .paragraph {
+    padding: 0px 0px 0px 0px;
+    .container {
+      padding: 0px 0px 20px 0px;
+    }
+  }
+
+  .back-to-top-link {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: -25px;
+  }
+
+  .circle-link {
+    background-color: white;
+    border: 1px solid $gray-lighter;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding-top: 8px;
+  }
+
+  .circle-link p {
+    font-size: 12px;
+    color: $gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-left: 1px;
+    font-weight: 600;
+  }
+
+  .arrow-to-top {
+    border-left: 2px solid $gray;
+    border-top: 2px solid $gray;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 4px;
+  }
+
+  form {
+    display: inline-flex;
+  }
+  .form-control {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .btn-submit {
+    margin: 0px 0px 0px 10px;
+    height: 43px;
+    padding-top: 11px;
+    width: 250px;
+    &:hover {
+      background-color: $red-darker;
+    }
+  }
+
+  .link-list {
+    margin: 20px 0px 20px 0px;
+  }
+  .link-list li {
+    margin: 0px 4px 0px 4px;
+  }
+  .fa {
+    font-size: 22px;
+    // border: solid 1px $gray-lighter;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 18px;
+    color: $gray-lighter;
+    transition: all 0.5s ease;
+    &:hover {
+      color: $gray-light;
+      // background-color: #1F1F1F;
+      // border-color: $gray-light;
+    }
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: $gray-light;
+  }
+
+  /********* responsive **********/
+  /** mobile **/
+  @media (max-width: 767px) {
+    h1 {
+      margin: 20px 0px 0px 0px;
+      font-size: 24px;
+    }
+    form {
+      display: inline-block;
+      width: 85%;
+    }
+    ul {
+      margin: 0;
+    }
+    p {
+      font-size: 14px;
+    }
+    .link-list li {
+      margin: 0;
+    }
+    .fa {
+      font-size: 20px;
+    }
+    .form-control {
+      font-size: 14px;
+      width: 100%;
+    }
+    .btn-submit {
+      margin: 10px 0 0 0;
+      width: 100%;
+    }
+    .link-list {
+      margin: 20px 0px 10px 0px;
+      padding: 0px;
+    }
+  }
+}
+
+
+
+
+
+

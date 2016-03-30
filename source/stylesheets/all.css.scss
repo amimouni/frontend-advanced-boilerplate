@@ -13,3 +13,21 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  font-family: $my-font, sans-serif;
+  font-style: normal;
+  color: $gray-dark;
+}
+
+.paragraph {
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+}
+.paragraph .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
