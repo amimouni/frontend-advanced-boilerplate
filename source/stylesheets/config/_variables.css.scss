@@ -16,6 +16,41 @@ $header-font: "Raleway", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 
+// Local fonts (uncomment following lines)
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-regular-webfont.eot');
+  src: font-url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-regular-webfont.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-bold-webfont.eot');
+  src: font-url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-semibold-webfont.eot');
+  src: font-url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-light-webfont.eot');
+  src: font-url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-light-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-light-webfont.ttf') format('truetype');
+  font-weight: 400;
+}
+$my-font: "proximanova";
+
 // Font-size and line-height
 $base-size: 16px;
 $base-height: 1.4;
@@ -27,14 +62,18 @@ $base-height: 1.4;
 $brand-color: #D23333;
 
 $red: #EE5F5B;
-$blue: #469AE0;
+$blue: #2b64c8;
 $yellow: #FDB631;
 $orange: #E67E22;
-$green: #32B796;
+$green: #0ac19c;
+
+$dark-blue: #0d3650;
+$red-darker: #EE5F5B;
 
 // Gray scale
+$gray-text:    #A2A2A2;
 $gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
+$gray-dark:    #414041;   // #333
+$gray:         #666666; // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee

@@ -1,26 +1,111 @@
-.banner {
-  background-image: image-url('anna_banner.jpg');
-  color: white;
-  background-size: cover;
-  position: relative;
-  .banner-content {
-    padding: 150px 0;
-    height: 650px;
-    padding-left: 50px;
-  }
-  .welcome {
+.main-container {
 
+  .banner {
+    h1 {
+      font-size: 50px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 100;
+    }
+    background-image: image-url('anna_banner.jpg');
+    background-size: cover;
+    position: relative;
+    &-gradient {
+      height: 100%;
+      background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
+    }
+    &-content {
+      padding: 2em;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
-  h1 {
-    font-size: 70px;
-    color: white;
-    // font-family: $brandon-light;
+
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    .icon-down-banner {
+      width: 12em;
+      margin-top: -7em;
+    }
+    .pulse {
+      animation-name: pulse;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: pulse;
+      -webkit-animation-duration: 3s;
+    }
+
+    @keyframes .pulse {
+      100% {
+        background-color: #001F3F;
+      }
+      100% {
+        background-color: #FF4136;
+      }
+    }
   }
-  h3 {
-    font-size: 20px;
+
+  .text-title {
+    h1, h2, h3 {
+      padding-bottom: 1em;
+    }
+    h1 {
+      font-size: 4em;
+      color: $dark-blue;
+    }
+    h3 {
+      font-size: 1.3em;
+      color: $green;
+    }
   }
-  p {
-    font-size: 25px;
-    font-weight: 100;
+
+  .main-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 86px;
+    line-height: 74px;
+    border: 2px dashed $blue;
+    .circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      width: 14em;
+      height: 14em;
+      border: 2px solid $blue;
+      margin: 1em;
+    }
+  }
+
+  .text-landing {
+    width: 85%;
+    font-size: 26px;
+    margin: auto;
   }
 }
+
+
+
+
+    //  animation: pulse 10s infinite;
+    // @keyframes pulse {
+    //   00% {
+    //     transform: scale(7.3);
+    //     background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
+    //   }
+    //   100% {
+    //     transform: scale(.3);
+    //     background-color: #FF4136;
+    //   }
+    // }
+
+
+
+

@@ -23,3 +23,13 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+// colors
+.text-grey, .text-grey p {
+  color: $gray-text;
+}
+.text-white {
+  h1, h2, h3, h4, p {
+    color: white;
+  }
+}
