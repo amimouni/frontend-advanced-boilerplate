@@ -1,6 +1,8 @@
 .main-container {
 
   .banner {
+    display: flex;
+    align-items: center;
     h1 {
       font-size: 50px;
     }
@@ -16,12 +18,103 @@
     position: relative;
     &-gradient {
       height: 100%;
-      background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
+      // background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
     }
     &-content {
       padding: 2em;
-      display: flex;
-      justify-content: flex-end;
+      width: 106em;
+      // display: flex;
+      // justify-content: flex-end;
+    }
+    // blink text
+    .welcome {
+
+      h1, h2, p {
+        color: white;
+        font-size: 40px;
+
+        // font-size: 20px;
+        // margin-left: 10%;
+        // display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 30em;
+        animation: type 4s steps(60, end);
+              // -webkit-animation: type 4s steps(60, end) ;
+
+        }
+
+p:nth-child(1) {
+  animation: type1 6s steps(60, end);
+}
+
+p:nth-child(2) {
+  animation: type2 6s steps(60, end);
+}
+
+p:nth-child(3) {
+  animation: type3 5s steps(60, end);
+}
+
+// p:nth-child(4), p:nth-child(5), p:nth-child(6) {
+//   font-size: 20px;
+//   animation: type4 5s steps(60, end);
+// }
+
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span {
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  0%{width: 0;}
+}
+
+
+
+@keyframes type1{
+  0%{width: 0%;}
+  5%{ width: 60px; }
+  8%{ width: 60px; }
+  35%{ width: 100%; }
+  100%{ width: 100%; }
+}
+
+@keyframes type2{
+  0%{width: 0%; }
+  28%{width: 0%; }
+  50%{ width: 100%; }
+  100%{ width: 100%; }
+}
+
+@keyframes type3{
+  0%{width: 0%;}
+  47%{width: 0%;}
+  90%{ width: 100%; }
+  100%{ width: 100%; }
+}
+
+// @keyframes type4{
+//   0%{width: 0%;}
+//   90%{ width: 0%; }
+//   92%{ width: 100%; }
+//   100%{ width: 100%; }
+// }
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+
     }
   }
 
@@ -30,15 +123,15 @@
     display: flex;
     justify-content: center;
     .icon-down-banner {
-      width: 12em;
-      margin-top: -7em;
+      width: 2em;
+      margin-top: -5em;
     }
     .pulse {
       animation-name: pulse;
-      animation-duration: 3s;
+      animation-duration: 9s;
       animation-iteration-count: infinite;
       -webkit-animation-name: pulse;
-      -webkit-animation-duration: 3s;
+      -webkit-animation-duration: 9s;
     }
 
     @keyframes .pulse {
@@ -67,30 +160,89 @@
 
   .main-circle {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-radius: 86px;
-    line-height: 74px;
-    border: 2px dashed $blue;
-    .circle {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      width: 14em;
-      height: 14em;
-      border: 2px solid $blue;
-      margin: 1em;
+    // flex-direction: row;
+    justify-content: center;
+    // border-radius: 86px;
+    // line-height: 74px;
+    // border: 2px dashed $blue;
+    align-items: center;
+    margin: auto;
+    width: 84%;
+
+    // width: 60%;
+    img {
+      width: 100%;
     }
+    // padding-left: 3em;
+    // padding-left: 3em;
+    // .circle-container {
+    //   flex: 3;
+
+    // }
+    // .circle {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+
+    //   // width: 20vw;
+    //   // height: 15vw;
+    //   border: 2px solid $blue;
+    //   margin: 0.6em;
+    //   border-radius: 50%;
+    //   width: 12em;
+    //   height: 12em;
+
+    // -moz-border-radius:50%;
+    // -webkit-border-radius:50%;
+    // -khtml-border-radius: 50%;
+    // }
+    // .arrow {
+    //   flex: 1;
+    // }
+
+
+
+    // .circle-left{
+    //   padding-left: 3em;
+    // }
+    // .circle-right{
+    //   padding-right: 3em;
+    // }
   }
 
   .text-landing {
     width: 85%;
-    font-size: 26px;
+    // font-size: 26px;
     margin: auto;
+    font-size: 1.3em;
   }
 }
 
+
+
+.services {
+
+  .pulse {
+    animation-name: pulse;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 9s;
+  }
+
+  @keyframes .pulse {
+    100% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+  .arrow-link {
+    width: 5em;
+    fill: $green;
+  }
+}
 
 
 

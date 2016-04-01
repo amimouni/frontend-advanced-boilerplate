@@ -6,15 +6,17 @@
   height: 70px;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
   z-index: 999;
   padding-right: 3em;
   padding-left: 3em;
+
   &-logo {
   width: 240px;
   font-size: 10px;
   }
+
 }
 
 // /* Optional class to fix the navbar on top */
@@ -28,7 +30,9 @@
 
 /* Navbar logo */
 .navbar-portfolio-brand img {
-  height: 20px;
+  height: 46px;
+  color: white;
+
 }
 
 /* Navbar right section (with form, links, button) */
@@ -42,7 +46,21 @@
 .navbar-portfolio-item {
   flex: 0 1 auto;
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 30px;
+  color: white;
+  letter-spacing: 0.2em;
+  a {
+    color: white;
+  }
+    & a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  & a:active {
+    text-decoration: none;
+    text-shadow: none;
+  }
 }
 
 /* Navbar standard link */
@@ -51,26 +69,26 @@
   font-size: 14px;
 }
 .navbar-portfolio-link:hover {
-  color: #da552f;
+  color: white;
   text-decoration: none;
 }
 
 /* Navbar right button */
-.navbar-portfolio-button {
-  margin-left: 10px;
-  padding: 0 20px;
-  border-radius: 20em;
-  line-height: 40px;
-  background-color: #D23333;
-  color: white;
-  font-size: 14px;
-  border: 2px solid #D23333;
-}
-.navbar-portfolio-button:hover {
-  color: white;
-  background: #D23333;
-  border-color: #ac2626;
-}
+// .navbar-portfolio-button {
+//   margin-left: 10px;
+//   padding: 0 20px;
+//   border-radius: 20em;
+//   line-height: 40px;
+//   background-color: #D23333;
+//   color: white;
+//   font-size: 14px;
+//   border: 2px solid #D23333;
+// }
+// .navbar-portfolio-button:hover {
+//   color: white;
+//   background: #D23333;
+//   border-color: #ac2626;
+// }
 
 
 /* Navbar dropdown menu */
@@ -100,6 +118,6 @@
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
+  border-left: 1px solid white;
   border-top: 1px solid #E6E6E6;
 }

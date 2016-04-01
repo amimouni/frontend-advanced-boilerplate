@@ -1,21 +1,32 @@
-<div class="navbar-portfolio">
+<div class="navbar-portfolio ">
   <!-- Logo -->
   <% link_to "/", class: "navbar-portfolio-brand" do %>
-    <%= image_tag "anna.png" %>
+    <%= image_tag "anna_logo-01.svg" %>
   <% end %>
 
   <!-- Right Navigation -->
-  <div class="navbar-portfolio-right hidden-xs hidden-sm">
+  <div class="navbar-portfolio-right fade-in hidden-xs">
 
     <!-- Text link -->
-    <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a>
+<!--     <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a> -->
 
     <!-- Text link -->
-    <a href="" class="navbar-portfolio-item navbar-portfolio-link">PROJECTS</a>
-    <a href="" class="navbar-portfolio-item navbar-portfolio-link">HOW I WORK</a>
-    <a href="" class="navbar-portfolio-item navbar-portfolio-link">ABOUT</a>
-    <a href="" class="navbar-portfolio-item navbar-portfolio-link">CONTACT</a>
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "SERVICES", "/services.html"%>
+    </div>
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "PROJECTS", "/projects"%>
+    </div>
 
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "HOW I WORK", "/howiwork"%>
+    </div>
+     <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "ABOUT", "/about"%>
+    </div>
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "CONTACT", "/contact"%>
+    </div>
 
 
     <!-- Profile picture and dropdown -->
