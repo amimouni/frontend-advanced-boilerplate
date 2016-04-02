@@ -1,50 +1,32 @@
 <div class="navbar-portfolio ">
-  <!-- Logo -->
-  <% link_to "/", class: "navbar-portfolio-brand" do %>
+
+  <div class="navbar-portfolio-content fade-in hidden-xs hidden-sm">
+    <% link_to "/", class: "navbar-portfolio-brand" do %>
     <%= image_tag "anna_logo-01.svg" %>
-  <% end %>
-
-  <!-- Right Navigation -->
-  <div class="navbar-portfolio-right fade-in hidden-xs">
-
-    <!-- Text link -->
-<!--     <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a> -->
-
-    <!-- Text link -->
+    <% end %>
+    <!--     <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a> -->
     <div class="navbar-portfolio-item navbar-portfolio-link">
       <%= link_to "SERVICES", "/services.html"%>
     </div>
     <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "PROJECTS", "/projects"%>
-    </div>
-
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "HOW I WORK", "/howiwork"%>
-    </div>
-     <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "ABOUT", "/about"%>
+      <%= link_to "PROJECTS", "/projects.html"%>
     </div>
     <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "CONTACT", "/contact"%>
+      <%= link_to "HOW I WORK", "/howiwork.html"%>
     </div>
-
-
-    <!-- Profile picture and dropdown -->
-<!--     <div class="navbar-portfolio-item">
-      <div class="dropdown">
-        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-portfolio-menu" data-toggle="dropdown">
-        <ul class="dropdown-menu dropdown-menu-right navbar-portfolio-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-      </div>
-    </div> -->
-
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "ABOUT", "/about.html"%>
+    </div>
+    <div class="navbar-portfolio-item navbar-portfolio-link">
+      <%= link_to "CONTACT", "/contact.html"%>
+    </div>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-portfolio-item hidden-md hidden-lg">
+  <div class="navbar-portfolio-content show-sm hidden-md hidden-lg">
+    <% link_to "/", class: "navbar-portfolio-brand" do %>
+    <%= image_tag "anna_logo-01.svg" %>
+    <% end %>
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-portfolio-dropdown-menu">

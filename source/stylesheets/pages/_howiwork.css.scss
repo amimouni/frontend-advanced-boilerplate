@@ -1,5 +1,5 @@
-.services {
-  .container.content {
+.howiwork {
+  .container .content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -36,40 +36,17 @@
     background-size: cover;
     position: relative;
   }
-  @media (min-width: 992px) {
-    .container {
-      width: 760px;
-    }
+
+  p {
+    padding-bottom: 2em;
   }
+  h2 {
+    // padding-top: 6em;
+    padding-bottom: 1em;
+  }
+  // @media (min-width: 992px) {
+  //   .container {
+  //     width: 760px;
+  //   }
+  // }
 }
-
-// .services {
-
-//   .arrow-lets {
-//     width: 13vh;
-//     animation-name: pulse;
-//     animation-duration: 9s;
-//     animation-iteration-count: infinite;
-//     -webkit-animation-name: pulse;
-//     -webkit-animation-duration: 9s;
-//   }
-
-//   @keyframes .arrow-lets {
-//     100% {
-//       background-color: #001F3F;
-//     }
-//     100% {
-//       background-color: #FF4136;
-//     }
-//   }
-//   .arrow-link {
-//     width: 5em;
-//     fill: $green;
-//   }
-
-//   .icon {
-//     img {
-//       width: 60%;
-//     }
-//   }
-// }

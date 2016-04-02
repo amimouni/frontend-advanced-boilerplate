@@ -1,10 +1,20 @@
 .interested {
   background-color: $green;
-  padding: 5em;
+  padding: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
   .white-text h1, h2, h3, h4, a, p, {
     color: white;
+  }
+  h2 {
+    padding-bottom: 2vh;
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    padding-top: 3vh;
+
   }
 }
