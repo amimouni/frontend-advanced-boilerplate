@@ -3,6 +3,9 @@
   .banner {
     display: flex;
     align-items: center;
+    background-image: image-url('anna_banner.jpg');
+    background-size: cover;
+    position: relative;
     h1 {
       font-size: 50px;
     }
@@ -12,109 +15,89 @@
     p {
       font-size: 25px;
       font-weight: 100;
+      margin: 0;
     }
-    background-image: image-url('anna_banner.jpg');
-    background-size: cover;
-    position: relative;
     &-gradient {
       height: 100%;
       // background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
+          width: 100vw;
+    display: flex;
+    justify-content: center;
     }
     &-content {
       padding: 2em;
-      width: 106em;
+      width: 100vw;
+          display: flex;
+    justify-content: center;
+    align-items: center;
       // display: flex;
       // justify-content: flex-end;
     }
     // blink text
     .welcome {
-
+      // margin: auto;
+      width: 28em;
       h1, h2, p {
         color: white;
         font-size: 40px;
-
-        // font-size: 20px;
-        // margin-left: 10%;
-        // display: inline-block;
         white-space: nowrap;
         overflow: hidden;
-        width: 30em;
+        // width: 12em;
+
+// margin-left: 0;
+// margin-right: 0;
         animation: type 4s steps(60, end);
-              // -webkit-animation: type 4s steps(60, end) ;
+        // -webkit-animation: type 4s steps(60, end) ;
+      }
 
-        }
+      p:nth-child(1) {
+        animation: type1 6s steps(60, end);
+      }
+      p:nth-child(2) {
+        animation: type2 6s steps(60, end);
+      }
+      p:nth-child(3) {
+        animation: type3 5s steps(60, end);
+      }
 
-p:nth-child(1) {
-  animation: type1 6s steps(60, end);
-}
+      span {
+        animation: blink 1s infinite;
+      }
 
-p:nth-child(2) {
-  animation: type2 6s steps(60, end);
-}
+      @keyframes type{
+        0%{width: 0;}
+      }
+      @keyframes type1{
+        0%{width: 0%;}
+        5%{ width: 60px; }
+        8%{ width: 60px; }
+        30%{ width: 100%; }
+        100%{ width: 100%; }
+      }
+      @keyframes type2{
+        0%{width: 0%; }
+        30%{width: 0%; }
+        50%{ width: 100%; }
+        100%{ width: 100%; }
+      }
+      @keyframes type3{
+        0%{width: 0%;}
+        50%{width: 0%;}
+        90%{ width: 100%; }
+        100%{ width: 100%; }
+      }
+      @keyframes blink{
+        to{opacity: .0;}
+      }
+      ::selection{
+        background: black;
+      }
 
-p:nth-child(3) {
-  animation: type3 5s steps(60, end);
-}
-
-// p:nth-child(4), p:nth-child(5), p:nth-child(6) {
-//   font-size: 20px;
-//   animation: type4 5s steps(60, end);
-// }
-
-
-p a{
-  color: lime;
-  text-decoration: none;
-}
-
-span {
-  animation: blink 1s infinite;
-}
-
-@keyframes type{
-  0%{width: 0;}
-}
-
-
-
-@keyframes type1{
-  0%{width: 0%;}
-  5%{ width: 60px; }
-  8%{ width: 60px; }
-  35%{ width: 100%; }
-  100%{ width: 100%; }
-}
-
-@keyframes type2{
-  0%{width: 0%; }
-  28%{width: 0%; }
-  50%{ width: 100%; }
-  100%{ width: 100%; }
-}
-
-@keyframes type3{
-  0%{width: 0%;}
-  47%{width: 0%;}
-  90%{ width: 100%; }
-  100%{ width: 100%; }
-}
-
-// @keyframes type4{
-//   0%{width: 0%;}
-//   90%{ width: 0%; }
-//   92%{ width: 100%; }
-//   100%{ width: 100%; }
-// }
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-::selection{
-  background: black;
-}
-
-
+    }
+  }
+  @media (min-width: 1192px) {
+    .welcome {
+      margin-left: 54vw;
     }
   }
 
@@ -145,8 +128,8 @@ span {
   }
 
   .text-title {
-    h1, h2, h3 {
-      padding-bottom: 1em;
+    h1, h2, h3, p, img {
+      padding-bottom: 10vh;
     }
     h1 {
       font-size: 4em;
@@ -155,6 +138,18 @@ span {
     h3 {
       font-size: 1.3em;
       color: $green;
+    }
+    .text-landing {
+      width: 76%;
+      margin: auto;
+
+      h2 {
+        padding-bottom: 4vh;
+
+      }
+      p {
+        padding-bottom: 14vh;
+      }
     }
   }
 
@@ -167,7 +162,7 @@ span {
     // border: 2px dashed $blue;
     align-items: center;
     margin: auto;
-    width: 84%;
+    width: 72%;
 
     // width: 60%;
     img {
@@ -209,43 +204,78 @@ span {
     //   padding-right: 3em;
     // }
   }
+}
 
-  .text-landing {
-    width: 85%;
-    // font-size: 26px;
-    margin: auto;
-    font-size: 1.3em;
-  }
+
+.padded-bottom {
+  padding-bottom: 3em;
 }
 
 
 
-.services {
-
-  .pulse {
-    animation-name: pulse;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
-    -webkit-animation-name: pulse;
-    -webkit-animation-duration: 9s;
+.home-services {
+  .container.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 0vh;
+    padding-bottom: 6vh;
+    justify-content: center;
+  }
+  .text, .icon {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .text {
+    flex: 1 50%;
+    // padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 2em;
+    a {
+      font-size: 1.2em;
+    }
+  }
+  .not-padded {
+    padding-left: 0em;
+  }
+  .icon {
+    flex: 1 50%;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+    max-width: 28em;
+    img {
+      width: 18vh;
+      max-height: 18vh;
+      margin: 0vh;
+    }
+  }
+  h2 {
+    padding-bottom: 1vh;
+    margin-top: 14px;
+  }
+  p {
+    padding-bottom: 6vh;
   }
 
-  @keyframes .pulse {
-    100% {
-      background-color: #001F3F;
-    }
-    100% {
-      background-color: #FF4136;
-    }
+  .arrow-lets img {
+    padding-left: 0.6em;
+    max-width: 20%;
   }
-  .arrow-link {
-    width: 5em;
-    fill: $green;
+  .banner-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: image-url('anna_banner.jpg');
+    background-size: cover;
+    position: relative;
+  }
+  @media (min-width: 680px) {
+    .container {
+      width: 68vw;
+    }
   }
 }
-
-
-
     //  animation: pulse 10s infinite;
     // @keyframes pulse {
     //   00% {

@@ -18,7 +18,7 @@
 html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
   font-family: $my-font, sans-serif;
   font-style: normal;
-  color: $gray-dark;
+  // color: $gray-dark;
 }
 
 .paragraph {
@@ -30,4 +30,31 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 16vh;
+  padding-bottom: 10vh;
+  color: $dark-blue;
+
+}
+h2 {
+  font-size: 34px;
+  padding-bottom: 10vh;
+  line-height: 6vh;
+}
+h3 {
+  font-size: 1.3em;
+  color: $green;
+  padding-bottom: 10vh;
+}
+p {
+  color: $gray-text;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  letter-spacing: 0.01em;
+
 }
