@@ -8,7 +8,7 @@
                                                         _/ |
                                                        |__/
 
-============================================================================*/
+                                                       ============================================================================*/
 
 /**
  * scrollReveal.js (c) 2014 Julian Lloyd ( @julianlloyd )
@@ -17,14 +17,14 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-window.scrollReveal = (function( window ) {
+ window.scrollReveal = (function( window ) {
 
   'use strict'
 
   var _requestAnimFrame
-    , extend
-    , handler
-    , self
+  , extend
+  , handler
+  , self
 
   function scrollReveal( config ) {
 
@@ -71,13 +71,13 @@ window.scrollReveal = (function( window ) {
        *        'once'   — delay only the first time an animation reveals
        *        'onload' - delay only for animations triggered by self.init()
        */
-      delay:    'once',
+       delay:    'once',
 
       /**
        *        vFactor changes when an element is considered in the viewport;
        *        the default requires 60% of an element be visible.
        */
-      vFactor:  0.60,
+       vFactor:  0.60,
 
       complete: function( el ) {} // Note: reset animations do not complete.
     },
@@ -86,11 +86,11 @@ window.scrollReveal = (function( window ) {
      * Queries the DOM, builds scrollReveal elements and triggers animation.
      * @param {boolean} flag — a hook for controlling delay on first load.
      */
-    init: function( flag ) {
+     init: function( flag ) {
 
       var serial
-        , elem
-        , query
+      , elem
+      , query
 
       query = Array.prototype.slice.call( self.config.viewport.querySelectorAll( '[data-sr]' ) )
       query.forEach(function ( el ) {
@@ -104,9 +104,9 @@ window.scrollReveal = (function( window ) {
         el.removeAttribute( 'data-sr' )
         el.setAttribute( 'style',
 
-            elem.styles.inline
+          elem.styles.inline
           + elem.styles.initial
-        )
+          )
       })
 
       self.scrolled = self.scrollY()
@@ -117,18 +117,18 @@ window.scrollReveal = (function( window ) {
      * Applies and removes appropriate styles.
      * @param {boolean} flag — a hook for controlling delay on first load.
      */
-    animate: function( flag ) {
+     animate: function( flag ) {
 
       var key
-        , elem
-        , visible
-        , complete
+      , elem
+      , visible
+      , complete
 
       /**
        * Cleans the DOM and removes completed elements from self.elems.
        * @param {integer} key — self.elems property key.
        */
-      complete = function( key ) {
+       complete = function( key ) {
 
         var elem = self.elems[ key ]
 
@@ -144,7 +144,7 @@ window.scrollReveal = (function( window ) {
       /**
        * Begin loop.
        */
-      for ( key in self.elems ) {
+       for ( key in self.elems ) {
         if ( self.elems.hasOwnProperty( key ) ) {
 
           elem    = self.elems[ key ]
@@ -153,176 +153,176 @@ window.scrollReveal = (function( window ) {
           if ( visible ) {
 
             if ( self.config.delay === 'always'
-            || ( self.config.delay === 'onload' && flag )
-            || ( self.config.delay === 'once'   && !elem.seen ) ) {
+              || ( self.config.delay === 'onload' && flag )
+              || ( self.config.delay === 'once'   && !elem.seen ) ) {
 
               /**
                * Use delay.
                */
-              elem.domEl.setAttribute( 'style',
+               elem.domEl.setAttribute( 'style',
 
-                  elem.styles.inline
+                elem.styles.inline
                 + elem.styles.target
                 + elem.styles.transition
-              )
+                )
 
-            } else {
+             } else {
 
               /**
                * Don’t use delay.
                */
-              elem.domEl.setAttribute( 'style',
+               elem.domEl.setAttribute( 'style',
 
-                  elem.styles.inline
+                elem.styles.inline
                 + elem.styles.target
                 + elem.styles.reset
-              )
-            }
+                )
+             }
 
-            elem.seen = true
+             elem.seen = true
 
-            if ( !elem.config.reset && !elem.animating ) {
+             if ( !elem.config.reset && !elem.animating ) {
 
               /**
                * Reset is DISABLED for this element,
                * so let’s count down to animation complete.
                */
-              elem.animating = true
-              complete( key )
-            }
-          }
+               elem.animating = true
+               complete( key )
+             }
+           }
 
-          if ( !visible && elem.config.reset ) {
+           if ( !visible && elem.config.reset ) {
 
             /**
              * Reset is ENABLED for this element,
              * so let’s apply its reset styles.
              */
-            elem.domEl.setAttribute( 'style',
+             elem.domEl.setAttribute( 'style',
 
-                elem.styles.inline
+              elem.styles.inline
               + elem.styles.initial
               + elem.styles.reset
-            )
-          }
-        }
-      }
+              )
+           }
+         }
+       }
 
-      self.blocked = false
-    },
+       self.blocked = false
+     },
 
     /**
      * Parses an elements data-sr attribute, and returns a configuration object.
      * @param {object} elem — An object from self.elems.
      * @return {object}
      */
-    configFactory: function( elem ) {
+     configFactory: function( elem ) {
 
       var parsed = {}
-        , config = {}
-        , words  = elem.domEl.getAttribute( 'data-sr' ).split( /[, ]+/ )
+      , config = {}
+      , words  = elem.domEl.getAttribute( 'data-sr' ).split( /[, ]+/ )
 
       /**
        * Find and remove any syntax sugar.
        */
-      words = self.filter( words )
-      words.forEach(function( keyword, i ) {
+       words = self.filter( words )
+       words.forEach(function( keyword, i ) {
 
         /**
          * Find keywords.
          */
-        switch ( keyword ) {
+         switch ( keyword ) {
 
           case 'enter':
 
-            parsed.enter = words[ i + 1 ]
-            return
+          parsed.enter = words[ i + 1 ]
+          return
 
           case 'wait':
 
-            parsed.wait = words[ i + 1 ]
-            return
+          parsed.wait = words[ i + 1 ]
+          return
 
           case 'move':
 
-            parsed.move = words[ i + 1 ]
-            return
+          parsed.move = words[ i + 1 ]
+          return
 
           case 'ease':
 
-            parsed.move = words[ i + 1 ]
-            parsed.ease = 'ease'
-            return
+          parsed.move = words[ i + 1 ]
+          parsed.ease = 'ease'
+          return
 
           case 'ease-in':
 
-            if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
+          if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
 
-              parsed.scale.direction = words[ i + 1 ]
-              parsed.scale.power     = words[ i + 2 ]
-              parsed.easing          = 'ease-in'
-              return
-            }
-
-            parsed.move   = words[ i + 1 ]
-            parsed.easing = 'ease-in'
+            parsed.scale.direction = words[ i + 1 ]
+            parsed.scale.power     = words[ i + 2 ]
+            parsed.easing          = 'ease-in'
             return
+          }
+
+          parsed.move   = words[ i + 1 ]
+          parsed.easing = 'ease-in'
+          return
 
           case 'ease-in-out':
 
-            if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
+          if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
 
-              parsed.scale.direction = words[ i + 1 ]
-              parsed.scale.power     = words[ i + 2 ]
-              parsed.easing          = 'ease-in-out'
-              return
-            }
-
-            parsed.move   = words[ i + 1 ]
-            parsed.easing = 'ease-in-out'
+            parsed.scale.direction = words[ i + 1 ]
+            parsed.scale.power     = words[ i + 2 ]
+            parsed.easing          = 'ease-in-out'
             return
+          }
+
+          parsed.move   = words[ i + 1 ]
+          parsed.easing = 'ease-in-out'
+          return
 
           case 'ease-out':
 
-            if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
+          if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
 
-              parsed.scale.direction = words[ i + 1 ]
-              parsed.scale.power     = words[ i + 2 ]
-              parsed.easing          = 'ease-out'
-              return
-            }
-
-            parsed.move   = words[ i + 1 ]
-            parsed.easing = 'ease-out'
+            parsed.scale.direction = words[ i + 1 ]
+            parsed.scale.power     = words[ i + 2 ]
+            parsed.easing          = 'ease-out'
             return
+          }
+
+          parsed.move   = words[ i + 1 ]
+          parsed.easing = 'ease-out'
+          return
 
           case 'hustle':
 
-            if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
+          if ( words[ i + 1 ] == 'up' || words[ i + 1 ] == 'down' ) {
 
-              parsed.scale.direction = words[ i + 1 ]
-              parsed.scale.power     = words[ i + 2 ]
-              parsed.easing          = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
-              return
-            }
-
-            parsed.move   = words[ i + 1 ]
-            parsed.easing = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
+            parsed.scale.direction = words[ i + 1 ]
+            parsed.scale.power     = words[ i + 2 ]
+            parsed.easing          = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
             return
+          }
+
+          parsed.move   = words[ i + 1 ]
+          parsed.easing = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
+          return
 
           case 'over':
 
-            parsed.over = words[ i + 1 ]
-            return
+          parsed.over = words[ i + 1 ]
+          return
 
           case 'reset':
 
-            if ( words[ i - 1 ] == 'no' ) parsed.reset = false
+          if ( words[ i - 1 ] == 'no' ) parsed.reset = false
             else                          parsed.reset = true
 
-            return
+              return
 
-          case 'scale':
+            case 'scale':
 
             parsed.scale = {}
 
@@ -336,33 +336,33 @@ window.scrollReveal = (function( window ) {
             parsed.scale.power = words[ i + 1 ]
             return
 
-          default:
+            default:
             return
-        }
-      })
+          }
+        })
 
       /**
        * Build default config object, then apply any
        * overrides parsed from the data-sr attribute.
        */
-      config = extend( config, self.config )
-      config = extend( config, parsed )
+       config = extend( config, self.config )
+       config = extend( config, parsed )
 
-      if ( config.enter  == 'top'  || config.enter == 'bottom' ) config.axis = 'Y'
-      if ( config.enter  == 'left' || config.enter == 'right'  ) config.axis = 'X'
+       if ( config.enter  == 'top'  || config.enter == 'bottom' ) config.axis = 'Y'
+        if ( config.enter  == 'left' || config.enter == 'right'  ) config.axis = 'X'
 
       /**
        * Check for hustle easing.
        */
-      if ( config.easing == 'hustle' ) config.easing = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
+       if ( config.easing == 'hustle' ) config.easing = 'cubic-bezier( 0.6, 0.2, 0.1, 1 )'
 
       /**
        * Let’s make sure our our pixel distances are negative for top and left.
        * e.g. "enter top and move 25px" starts at 'top: -25px' in CSS.
        */
-      if ( config.enter == 'top' || config.enter == 'left' ) config.move = '-' + config.move
+       if ( config.enter == 'top' || config.enter == 'left' ) config.move = '-' + config.move
 
-      return config
+        return config
 
     },
 
@@ -371,14 +371,14 @@ window.scrollReveal = (function( window ) {
      * @param {object} elem — An object from self.elems.
      * @return {object}
      */
-    styleFactory: function( elem ) {
+     styleFactory: function( elem ) {
 
       var transition
-        , initial
-        , target
-        , reset
-        , inline
-        , build
+      , initial
+      , target
+      , reset
+      , inline
+      , build
 
       inline = ( elem.domEl.getAttribute( 'style' ) ) ? elem.domEl.getAttribute( 'style' ) + '; visibility: visible; ' : 'visibility: visible; '
 
@@ -388,19 +388,19 @@ window.scrollReveal = (function( window ) {
       //if ( self.isMobile() && self.config.mobile ) elem.config.wait = 0
 
       transition = '-webkit-transition: -webkit-transform ' + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + ', opacity ' + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + '; ' +
-                           'transition: transform '         + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + ', opacity ' + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + '; ' +
-                  '-webkit-perspective: 1000;' +
-          '-webkit-backface-visibility: hidden;'
+      'transition: transform '         + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + ', opacity ' + elem.config.over + ' ' + elem.config.easing + ' ' + elem.config.wait + '; ' +
+      '-webkit-perspective: 1000;' +
+      '-webkit-backface-visibility: hidden;'
 
       reset      = '-webkit-transition: -webkit-transform ' + elem.config.over + ' ' + elem.config.easing + ' 0s, opacity ' + elem.config.over + ' ' + elem.config.easing + ' 0s; ' +
-                           'transition: transform '         + elem.config.over + ' ' + elem.config.easing + ' 0s, opacity ' + elem.config.over + ' ' + elem.config.easing + ' 0s; ' +
-                  '-webkit-perspective: 1000; ' +
-          '-webkit-backface-visibility: hidden; '
+      'transition: transform '         + elem.config.over + ' ' + elem.config.easing + ' 0s, opacity ' + elem.config.over + ' ' + elem.config.easing + ' 0s; ' +
+      '-webkit-perspective: 1000; ' +
+      '-webkit-backface-visibility: hidden; '
 
       /**
        * Constructs initial and target styles.
        */
-      build = function() {
+       build = function() {
 
         if ( parseInt( elem.config.move ) != 0 ) {
 
@@ -411,30 +411,30 @@ window.scrollReveal = (function( window ) {
         if ( parseInt( elem.config.scale.power ) != 0 ) {
 
           if ( elem.config.scale.direction == 'up'   ) elem.config.scale.value = 1 - ( parseFloat( elem.config.scale.power ) * 0.01 )
-          if ( elem.config.scale.direction == 'down' ) elem.config.scale.value = 1 + ( parseFloat( elem.config.scale.power ) * 0.01 )
+            if ( elem.config.scale.direction == 'down' ) elem.config.scale.value = 1 + ( parseFloat( elem.config.scale.power ) * 0.01 )
 
-          initial += ' scale(' + elem.config.scale.value + ')'
-          target  += ' scale(1)'
+              initial += ' scale(' + elem.config.scale.value + ')'
+            target  += ' scale(1)'
+          }
+
+          initial += '; opacity: ' + elem.config.opacity + '; '
+          target  += '; opacity: 1; ';
         }
 
-        initial += '; opacity: ' + elem.config.opacity + '; '
-        target  += '; opacity: 1; ';
-      }
+        initial = 'transform:'
+        target  = 'transform:'
 
-      initial = 'transform:'
-      target  = 'transform:'
-
-      build()
+        build()
 
       /**
        * Build again for webkit.
        */
-      initial += '-webkit-transform:'
-      target  += '-webkit-transform:'
+       initial += '-webkit-transform:'
+       target  += '-webkit-transform:'
 
-      build()
+       build()
 
-      return {
+       return {
 
         transition: transition,
         initial:    initial,
@@ -451,20 +451,20 @@ window.scrollReveal = (function( window ) {
 
       var sugar = [
 
-        'from',
-        'the',
-        'and',
-        'then',
-        'but',
-        'with',
-        'please',
+      'from',
+      'the',
+      'and',
+      'then',
+      'but',
+      'with',
+      'please',
       ]
 
       words.forEach(function( word ) {
 
         if ( sugar.indexOf( word ) > -1 ) return
 
-        filtered.push( word )
+          filtered.push( word )
         return
       })
 
@@ -474,7 +474,7 @@ window.scrollReveal = (function( window ) {
     getViewportH: function() {
 
       var client = self.config.viewport[ 'clientHeight' ]
-        , inner  = window[ 'innerHeight' ]
+      , inner  = window[ 'innerHeight' ]
 
       if ( self.config.viewport == window.document.documentElement ) {
 
@@ -488,20 +488,20 @@ window.scrollReveal = (function( window ) {
 
       if ( self.config.viewport == window.document.documentElement ) return window.pageYOffset
 
-      return self.config.viewport.scrollTop + self.config.viewport.offsetTop
+        return self.config.viewport.scrollTop + self.config.viewport.offsetTop
     },
 
     getOffset: function( el ) {
 
       var offsetTop  = 0
-        , offsetLeft = 0
+      , offsetLeft = 0
 
       do {
 
         if ( !isNaN( el.offsetTop  )) offsetTop  += el.offsetTop
-        if ( !isNaN( el.offsetLeft )) offsetLeft += el.offsetLeft
+          if ( !isNaN( el.offsetLeft )) offsetLeft += el.offsetLeft
 
-      } while ( el = el.offsetParent )
+        } while ( el = el.offsetParent )
 
       return {
 
@@ -513,13 +513,13 @@ window.scrollReveal = (function( window ) {
     isElemInViewport: function( elem ) {
 
       var elHeight = elem.domEl.offsetHeight
-        , elTop    = self.getOffset( elem.domEl ).top
-        , elBottom = elTop + elHeight
-        , vFactor  = elem.config.vFactor || 0
+      , elTop    = self.getOffset( elem.domEl ).top
+      , elBottom = elTop + elHeight
+      , vFactor  = elem.config.vFactor || 0
 
       return ( elTop + elHeight * vFactor < self.scrolled + self.getViewportH() )
-          && ( elBottom - elHeight * vFactor > self.scrolled )
-          || ( elem.domEl.currentStyle ? elem.domEl.currentStyle : window.getComputedStyle( elem.domEl, null ) ).position == 'fixed'
+      && ( elBottom - elHeight * vFactor > self.scrolled )
+      || ( elem.domEl.currentStyle ? elem.domEl.currentStyle : window.getComputedStyle( elem.domEl, null ) ).position == 'fixed'
     },
 
     isMobile: function() {
@@ -532,71 +532,71 @@ window.scrollReveal = (function( window ) {
     isSupported: function() {
 
       var sensor    = document.createElement( 'sensor' )
-        , cssPrefix = 'Webkit,Moz,O,'.split( ',' )
-        , tests     = ( 'transition ' + cssPrefix.join( 'transition,' ) ).split( ',' )
+      , cssPrefix = 'Webkit,Moz,O,'.split( ',' )
+      , tests     = ( 'transition ' + cssPrefix.join( 'transition,' ) ).split( ',' )
 
       for ( var i = 0; i < tests.length; i++ ) {
 
         if ( !sensor.style[tests[i]] === '' ) return false
       }
 
-      return true
-    },
+    return true
+  },
 
-    destroy: function() {
+  destroy: function() {
 
-      var query
+    var query
 
-      query = Array.prototype.slice.call( self.config.viewport.querySelectorAll( '[data-sr]' ) )
-      query.forEach(function ( el ) {
-        el.removeAttribute( 'data-sr' )
-      })
-    }
-
+    query = Array.prototype.slice.call( self.config.viewport.querySelectorAll( '[data-sr]' ) )
+    query.forEach(function ( el ) {
+      el.removeAttribute( 'data-sr' )
+    })
   }
 
-  handler = function( e ) {
+}
 
-    if ( !self.blocked ) {
+handler = function( e ) {
 
-      self.blocked  = true
-      self.scrolled = self.scrollY()
+  if ( !self.blocked ) {
 
-      _requestAnimFrame( function() {
+    self.blocked  = true
+    self.scrolled = self.scrollY()
 
-        self.animate()
-      })
+    _requestAnimFrame( function() {
+
+      self.animate()
+    })
+  }
+}
+
+extend = function( target, src ) {
+
+  for ( var prop in src ) {
+
+    if ( src.hasOwnProperty( prop ) ) {
+
+      target[ prop ] = src[ prop ]
     }
   }
 
-  extend = function( target, src ) {
-
-    for ( var prop in src ) {
-
-      if ( src.hasOwnProperty( prop ) ) {
-
-        target[ prop ] = src[ prop ]
-      }
-    }
-
-    return target
-  }
+  return target
+}
 
   /**
    * RequestAnimationFrame polyfill.
    */
-  _requestAnimFrame = (function() {
+   _requestAnimFrame = (function() {
 
     return window.requestAnimationFrame        ||
-           window.webkitRequestAnimationFrame  ||
-           window.mozRequestAnimationFrame     ||
+    window.webkitRequestAnimationFrame  ||
+    window.mozRequestAnimationFrame     ||
 
-          function( callback ) {
+    function( callback ) {
 
-            window.setTimeout( callback, 1000 / 60 )
-          }
+      window.setTimeout( callback, 1000 / 60 )
+    }
   }())
 
-  return scrollReveal
+   return scrollReveal
 
-})( window )
+ })( window )
