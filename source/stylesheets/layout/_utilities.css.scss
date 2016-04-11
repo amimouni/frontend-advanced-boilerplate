@@ -32,7 +32,15 @@
   h1 {
     font-weight: 400;
   // line-height: 1.1;
-  padding-bottom: 0vh;
+    padding-bottom: 0vh;
 
   }
+}
+
+.green-text {
+  color: $green;
+}
+
+.line-div {
+  border-bottom: 1px solid #E4E4E4;
 }
