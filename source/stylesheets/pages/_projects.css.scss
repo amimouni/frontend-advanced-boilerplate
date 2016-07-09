@@ -32,17 +32,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // background-image: image-url('anna_banner.jpg');
+    // background-image: image-url('images/colors.jpeg');
     background-size: cover;
     position: relative;
     min-height: 36em;
 
-    background: linear-gradient(316deg, #1bd4a4, #1b2fd4, #d41bcd);
-    background-size: 600% 600%;
+    // background: linear-gradient(316deg, #1bd4a4, #1b2fd4, #d41bcd);
+    background-size: 100%;
 
-    -webkit-animation: AnimationName 38s ease infinite;
-    -moz-animation: AnimationName 38s ease infinite;
-    animation: AnimationName 38s ease infinite;
+    -webkit-animation: AnimationName 100s cubic-bezier(0.25, 0.1, 0.72, 0.86) infinite;
+    -moz-animation: AnimationName 100s cubic-bezier(0.25, 0.1, 0.72, 0.86) infinite;
+    animation: AnimationName 100s cubic-bezier(0.25, 0.1, 0.72, 0.86) infinite;
 
     @-webkit-keyframes AnimationName {
         0%{background-position:10% 0%}
@@ -67,4 +67,22 @@
       width: 760px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -40,11 +40,11 @@
     min-height: 36em;
 
     background: linear-gradient(316deg, #1bd4a4, #1b2fd4, #d41bcd);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 38s ease infinite;
-    -moz-animation: AnimationName 38s ease infinite;
-    animation: AnimationName 38s ease infinite;
+    background-size: 200%;
+    // background-image: image-url('images/howiwork.jpg');
+    -webkit-animation: AnimationName 78s ease infinite;
+    -moz-animation: AnimationName 78s ease infinite;
+    animation: AnimationName 78s ease infinite;
 
     @-webkit-keyframes AnimationName {
         0%{background-position:10% 0%}
