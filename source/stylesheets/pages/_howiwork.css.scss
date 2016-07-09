@@ -33,9 +33,11 @@
     align-items: center;
     justify-content: center;
     // background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%);
-    background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%),url('images/howiwork.jpg');
+    // background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%),url('images/howiwork.jpg');
+    // background-image: image-url('images/paint01.jpg');
 
-    background-image: image-url('images/howiwork.jpg');
+
+
     background-size: cover;
     position: relative;
     min-height: 36em;

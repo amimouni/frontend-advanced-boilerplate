@@ -1,7 +1,7 @@
 .about {
   h2 {
     margin-top: 1em;
-    padding-bottom: 6vh;
+    padding-bottom: 5vh;
 
   }
   .banner-centered {
@@ -140,14 +140,27 @@
         flex-direction: row;
         display: flex;
         justify-content: flex-start;
-        padding-bottom: 1.6em;
+            padding-bottom: 2vh;
+        // padding-bottom: 1.6em;
         .text {
-          margin-top: 1.4em;
-          padding-bottom: 4vh;
-          h2 {
+          margin-top: 2em;
+          // padding-bottom: 4vh;
+          h1 {
+            font-weight: 500;
             font-size: 3em;
-            margin-top: 0.6em;
-            padding-bottom: 4vh;
+            padding-bottom: 0vh;
+            line-height: 5vh;
+            color: $gray-dark;
+            // margin-top: 5vh;
+          }
+          h2 {
+            font-size: 2em;
+            margin-top: 0em;
+            padding-bottom: 0vh;
+            color: $gray-text;
+          }
+          h3 {
+                padding-bottom: 4vh;
           }
         }
         .avatar-bordered {
@@ -233,9 +246,12 @@
       letter-spacing: 0.01em;
       color: #818181;
       font-size: 0.9em;
-      padding-right: 3em;
+      padding-right: 0em;
       i {
         color: $green;
+      }
+      p {
+        font-size: 0.9em;
       }
     }
 
