@@ -32,9 +32,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: image-url('anna_banner.jpg');
+    // background-image: image-url('anna_banner.jpg');
     background-size: cover;
     position: relative;
+
+    // background: linear-gradient(135deg,rgba(35,0,90,1) 0,$green 100%),url('anna_banner.jpg');
+    min-height: 36em;
+
+    background: linear-gradient(316deg, #1bd4a4, #1b2fd4, #d41bcd);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 38s ease infinite;
+    -moz-animation: AnimationName 38s ease infinite;
+    animation: AnimationName 38s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+    }
+
+
   }
   @media (min-width: 992px) {
     .container {

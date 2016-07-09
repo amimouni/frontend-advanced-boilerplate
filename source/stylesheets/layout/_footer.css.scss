@@ -73,23 +73,6 @@
     margin-top: 4px;
   }
 
-  form {
-    display: inline-flex;
-  }
-  .form-control {
-    font-size: 14px;
-    width: 250px;
-  }
-
-  .btn-submit {
-    margin: 0px 0px 0px 10px;
-    height: 43px;
-    padding-top: 11px;
-    width: 250px;
-    &:hover {
-      background-color: $red-darker;
-    }
-  }
 
   .link-list {
     margin: 20px 0px 20px 0px;
@@ -126,10 +109,7 @@
       margin: 20px 0px 0px 0px;
       font-size: 24px;
     }
-    form {
-      display: inline-block;
-      width: 85%;
-    }
+
     ul {
       margin: 0;
     }

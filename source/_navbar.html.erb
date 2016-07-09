@@ -1,25 +1,30 @@
 <div class="navbar-portfolio ">
 
   <div class="navbar-portfolio-content fade-in hidden-xs hidden-sm">
-    <% link_to "/", class: "navbar-portfolio-brand" do %>
-    <%= image_tag "anna_logo-01.svg" %>
-    <% end %>
+      <div class="logo">
+        <% link_to "/", class: "navbar-portfolio-brand" do %>
+        <%= image_tag "am_logo.svg" %>
+        <% end %>
+      </div>
     <!--     <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a> -->
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "SERVICES", "/services.html"%>
-    </div>
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "PROJECTS", "/projects.html"%>
-    </div>
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "HOW I WORK", "/howiwork.html"%>
-    </div>
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "ABOUT", "/about.html"%>
-    </div>
-    <div class="navbar-portfolio-item navbar-portfolio-link">
-      <%= link_to "CONTACT", "/contact.html"%>
-    </div>
+      <div class="menu wow fadeInUp" data-wow-duration="2s">
+        <div class="navbar-portfolio-item navbar-portfolio-link">
+          <%= link_to "SERVICES", "/services.html"%>
+        </div>
+        <div class="navbar-portfolio-item navbar-portfolio-link">
+          <%= link_to "PROJECTS", "/projects.html"%>
+        </div>
+        <div class="navbar-portfolio-item navbar-portfolio-link">
+          <%= link_to "HOW I WORK", "/howiwork.html"%>
+        </div>
+        <div class="navbar-portfolio-item navbar-portfolio-link">
+          <%= link_to "ABOUT", "/about.html"%>
+        </div>
+        <div class="navbar-portfolio-item navbar-portfolio-link">
+          <%= link_to "CONTACT", "/contact.html"%>
+        </div>
+      </div>
+
   </div>
 
   <!-- Dropdown appearing on mobile only -->

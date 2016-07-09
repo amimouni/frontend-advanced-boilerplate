@@ -3,9 +3,37 @@
   .banner {
     display: flex;
     align-items: center;
-    background-image: image-url('anna_banner.jpg');
+
+      // background: linear-gradient(0deg, lightsalmon 10%, salmon 90%)
+    background: linear-gradient(135deg,rgba(35,0,90, 0) 0, #1147A9 100%),image-url('anna_banner.jpg');
+    // background-image: image-url('anna_banner.jpg');
     background-size: cover;
     position: relative;
+
+
+    // background: linear-gradient(316deg, rgba(27, 212, 164, 0.5), rgba(27, 47, 212, 0.5), rgba(212, 27, 205, 0.5)),image-url('anna_banner.jpg');
+    // background-size: 100% 100%;
+
+    // -webkit-animation: AnimationName 38s ease infinite;
+    // -moz-animation: AnimationName 38s ease infinite;
+    // animation: AnimationName 38s ease infinite;
+
+    // @-webkit-keyframes AnimationName {
+    //     0%{background-position:10% 0%}
+    //     50%{background-position:91% 100%}
+    //     100%{background-position:10% 0%}
+    // }
+    // @-moz-keyframes AnimationName {
+    //     0%{background-position:10% 0%}
+    //     50%{background-position:91% 100%}
+    //     100%{background-position:10% 0%}
+    // }
+    // @keyframes AnimationName {
+    //     0%{background-position:10% 0%}
+    //     50%{background-position:91% 100%}
+    //     100%{background-position:10% 0%}
+    // }
+
     h1 {
       font-size: 50px;
     }
@@ -19,7 +47,7 @@
     }
     &-gradient {
       height: 100%;
-      // background: transparent linear-gradient(205deg, rgba(0, 14, 168, 0.6) 0%, rgba(135, 81, 141, 0.4) 50%) repeat scroll 0% 0%;
+
           width: 100vw;
     display: flex;
     justify-content: center;
@@ -32,6 +60,32 @@
     align-items: center;
       // display: flex;
       // justify-content: flex-end;
+      &-button {
+        // color: white;
+        // font-size: 18px;
+        text-decoration: none;
+        // letter-spacing: 3px;
+        font-weight: 600;
+        font-style: normal;
+        transition: 0.1s background-color linear, 0.1s color linear;
+        // margin: 1em 0 .8em;
+        text-rendering: optimizeLegibility;
+        background-color: none;
+        // border-radius: 86px;
+        // line-height: 74px;
+        // padding-right: 34px;
+        // padding-left: 34px;
+        // padding-top: 17px;
+        // padding-bottom: 15px;
+        // border: 2px solid white;
+        &:hover {
+          color: white;
+          // border-color: $red;
+          // background-color: $red;
+          text-decoration: none;
+          text-shadow: none;
+        }
+      }
     }
     // blink text
     .welcome {
@@ -52,6 +106,7 @@
 
       p:nth-child(1) {
         animation: type1 6s steps(60, end);
+        font-weight: 800;
       }
       p:nth-child(2) {
         animation: type2 6s steps(60, end);
@@ -108,6 +163,7 @@
     .icon-down-banner {
       width: 2em;
       margin-top: -5em;
+
     }
     .pulse {
       animation-name: pulse;
