@@ -15,7 +15,14 @@ return t=a?function(t){return t&&a(r(t))}:function(t){return t&&r(t)}}function e
 var $grid = $('.grid').isotope({
   // options
   itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
+  // layoutMode: 'Mansonry'
+
+  percentPosition: true,
+  masonry: {
+    // use outer width of grid-sizer for columnWidth
+    columnWidth: '.grid-sizer'
+    // gutter: 5
+  }
 });
 
 // filter items on button click

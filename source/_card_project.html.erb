@@ -1,7 +1,42 @@
-<div class="grid-item <%= selector %>" data-my-order="1">
-  <!-- <div class="ui-box"> -->
+<div class="card-project grid-item <%= card.selector %> idx-<%= idx %>" data-toggle="modal" data-target="#modal-project-<%= idx %>">
+  <div class="padd">
     <div class="img-container">
-      <%= image_tag project_img %>
+      <%= image_tag card.image %>
     </div>
-  <!-- </div> -->
+    <div><h4><%= titre %></h4></div>
+    <div>
+      <%= card.text %>
+    </div>
+  </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-project-<%= idx %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+      <div class="container">
+
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel"><%= modal.title %></h4>
+        </div>
+
+        <% modal.each do |text| %>
+        <% if text[0] == "title" %>
+          <div></div>
+        <% elsif text[0].include? "image" %>
+          <%= image_tag text[1] %>
+        <% else %>
+          <h4><%= text[1] %></h4>
+        <% end %>
+        <% end %>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
