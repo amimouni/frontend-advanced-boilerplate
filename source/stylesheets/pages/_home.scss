@@ -5,7 +5,7 @@
     align-items: center;
 
       // background: linear-gradient(0deg, lightsalmon 10%, salmon 90%)
-    background: linear-gradient(135deg,rgba(35,0,90, 0) 0, #1147A9 100%),image-url('anna_banner.jpg');
+      background: linear-gradient(135deg,rgba(35,0,90, 0) 0, #1147A9 100%),image-url('anna_banner.jpg');
     // background-image: image-url('anna_banner.jpg');
     background-size: cover;
     position: relative;
@@ -48,16 +48,16 @@
     &-gradient {
       height: 100%;
 
-          width: 100vw;
-    display: flex;
-    justify-content: center;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
     }
     &-content {
       padding: 2em;
       width: 100vw;
-          display: flex;
-    justify-content: center;
-    align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       // display: flex;
       // justify-content: flex-end;
       &-button {
@@ -100,7 +100,7 @@
 
 // margin-left: 0;
 // margin-right: 0;
-        animation: type 4s steps(60, end);
+animation: type 4s steps(60, end);
         // -webkit-animation: type 4s steps(60, end) ;
       }
 
@@ -314,10 +314,23 @@
     padding-bottom: 6vh;
   }
 
-  .arrow-lets img {
-    padding-left: 0.6em;
-    max-width: 20%;
+  .arrow-lets {
+    a {
+      position: absolute;
+      width: 325px;
+      height: 25px;
+      z-index: 2;
+    }
+    span {
+      position: absolute;
+      z-index: 1;
+      margin-left: 200px;
+      img {
+        max-width: 55%;
+      }
+    }
   }
+
   .banner-centered {
     display: flex;
     align-items: center;

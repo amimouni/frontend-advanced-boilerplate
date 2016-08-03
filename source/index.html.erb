@@ -97,12 +97,10 @@ title: Anna Mimouni, Creative Designer
         </div>
       </div>
       <div class="icon">
-        <div class="text not-padded">
+        <div class="text not-padded arrow-lets">
           <h2>Start a business,<br>build a product?</h2>
-
-          <% link_to "/", class: "arrow-lets" do %>
-          Lets chat about this   <span><%= image_tag "long_arrow-01.svg", class: "" %></span>
-          <% end %>
+          <%= mail_to 'contact@annamimouni.com', "Lets chat about this", subject: "Hello" %>
+          <span><%= image_tag "long_arrow-01.svg" %></span>
         </div>
       </div>
     </div>
