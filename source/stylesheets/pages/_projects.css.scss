@@ -143,6 +143,7 @@
     // flex-direction: column;
 
   }
+}
 
 
 
@@ -151,18 +152,22 @@
 
 
 
+/*********** CARDS PROJECTS ************/
 
-  /*********** CARDS PROJECTS ************/
-
-  .cards-project-container {
-    width: 80%;
-    margin: auto;
+.cards-project-container {
+  width: 80%;
+  margin: auto;
+}
+.cards-projects {
+  .grid-sizer, .grid-item {
+    /* cards sur 5 colonnes */
+    width: 25%;
   }
-  .cards-projects {
-    .grid-sizer, .grid-item {
-      /* cards sur 5 colonnes */
-      width: 25%;
-    }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .card-project {
     .padd {
       margin: 5px;
       background: #fff;
@@ -171,14 +176,13 @@
       cursor: pointer;
     }
     img {
-      width: 100%;
-      height: auto;
       -webkit-border-radius: 6px 6px 0 0;
       -moz-border-radius: 6px 6px 0 0;
       border-radius: 6px 6px 0 0;
     }
   }
 }
+
 
 .btn-filter {
   // width: 3em;
@@ -205,7 +209,14 @@
     margin: 0;
   }
   &-content {
-    height: 100%;
+    min-height: 100%;
+  }
+  button {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 22px;
+    top: 20px;
   }
 }
 
