@@ -52,8 +52,10 @@
 
         <div class="modal-body">
           <% modal.body.each do |item| %>
-          <% if item[0] == "title" %>
-          <div></div>
+          <% if item[0].include? "title" %>
+          <h2 class="text-center"><%= item[1] %></h2>
+          <% elsif item[0].include? "sub" %>
+          <h4><%= item[1] %></h4>
           <% elsif item[0].include? "image" %>
           <%= image_tag item[1] %>
           <% else %>
