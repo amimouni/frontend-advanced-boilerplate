@@ -29,18 +29,50 @@
     max-width: 30%;
   }
   .banner-centered {
+
+
+
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%),url('images/howiwork.jpg');
-    // background-image: image-url('images/paint01.jpg');
-
-
-
+    background-image: image-url('images/colors.jpeg');
     background-size: cover;
     position: relative;
     min-height: 36em;
+    background: linear-gradient(270deg, #d7a1e3, #80bff3, #a1e3e2, #f3c680);
+       background-size: 200%;
+
+       -webkit-animation: AnimationName 31s ease infinite;
+       -moz-animation: AnimationName 31s ease infinite;
+       -o-animation: AnimationName 31s ease infinite;
+       animation: AnimationName 31s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+
+
+
+    // background: linear-gradient(50deg, #f3c680, hsla(179,54%,76%,1)),url('images/howiwork.jpg');
+    // background-image: image-url('images/paint01.jpg');
+
   }
 
   p {
