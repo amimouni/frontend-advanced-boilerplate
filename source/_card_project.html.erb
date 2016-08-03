@@ -59,7 +59,7 @@
           <% if item[0].include? "title" %>
           <h2 class="text-center"><%= item[1] %></h2>
           <% elsif item[0].include? "sub" %>
-          <h4><%= item[1] %></h4>
+          <h3 class="text-center"><%= item[1] %></h3>
           <% elsif item[0].include? "image" %>
           <%= image_tag item[1] %>
           <% else %>
