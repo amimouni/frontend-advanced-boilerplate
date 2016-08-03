@@ -35,12 +35,10 @@
   </div>
   <div class="cards-project-container ">
     <div class="cards-projects grid">
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-1", :project_img => "http://placehold.it/350x150" }) %>
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-2", :project_img => "http://placehold.it/140x100" }) %>
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-2", :project_img => "http://placehold.it/200x100" }) %>
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-3", :project_img => "http://placehold.it/350x150" }) %>
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-1", :project_img => "http://placehold.it/350x150" }) %>
-      <%= partial(:card_project, :locals => {:category_nb => 1, :selector => "cat-2", :project_img => "http://placehold.it/350x150" }) %>
+      <div class="grid-sizer"></div>
+      <% data.projects.each do |member, infos| %>
+      <%= partial(:card_project, :locals => { :titre => member, :idx => infos.idx, :card => infos.card, :modal => infos.modal }) %>
+      <% end %>
     </div>
   </div>
 </div>
