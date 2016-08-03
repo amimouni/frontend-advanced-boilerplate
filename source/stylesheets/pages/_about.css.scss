@@ -29,7 +29,7 @@
   }
 
   .line-div {
-    border-top: 1px solid #e7e7e7;
+    border-top: 2px solid #e7e7e7;
   }
 
 }
@@ -100,21 +100,15 @@
     border-radius: 6px;
 
 
-     // box-shadow: 0px 1px 0px 0px #dedede;
-      // padding-left: 1em;
-      // border: 1px solid #E4E4E4;
-      // border-radius: 4px;
+
       margin-bottom: 1em;
       padding-bottom: 1em;
       .skills-bar .wrap .title-skills p {
         font-size: 0.9em;
         }
 
-      .padded {
-          // padding: 1.6em;
-        }
         .school-box {
-        // padding: 1.6em;
+
         position: relative;
 
         p {
@@ -442,7 +436,7 @@
       .border-holder {
       border: 1px solid $green;
       border-radius: 20px;
-      // background-color: #CECECE;
+
         .bar {
           background: $green;
         }
