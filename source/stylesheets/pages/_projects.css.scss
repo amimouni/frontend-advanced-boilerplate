@@ -186,35 +186,39 @@
 
 .btn-link {
   color: $gray-text;
-      margin: 1em;
-      text-decoration: none;
+  margin: 1em;
+  text-decoration: none;
   // color: #818181;
-      font-size: 0.8em;
-      line-height: 1.7em;
-      letter-spacing: 0.01em;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  letter-spacing: 0.01em;
   font-weight: normal;
   outline: none;
-border: none;
+  border: none;
 }
 
 .btn-link:hover {
-    text-decoration: none;
-    outline: none;
-border: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
 
 
 }
 
 .btn-link:active, .btn-link:focus {
-      text-decoration: none;
-      outline: none;
+  text-decoration: none;
+  outline: none;
   border: none;
   color: $gray;
-  }
+}
 
 
 /********* Modal Projects cards *********/
 .modal {
+  &-container {
+    width: 1000px;
+    margin: auto;
+  }
   &-dialog {
     height: 100%;
     width: 100%;
@@ -222,14 +226,46 @@ border: none;
   }
   &-content {
     min-height: 100%;
+    background-clip: inherit;
+  }
+  &-banner {
+    text-align: center;
+    padding: 4vh;
+    h2 {
+      padding-top: 10vh;
+    }
+  }
+  &-description {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding: 2em 0;
+    margin: 2em 0;
+    h3 {
+      padding-bottom: 1em;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+    .left-col, .middle-col {
+      padding-right: 2em;
+    }
+    .middle-col, .right-col {
+      padding-left: 2em;
+    }
   }
   button {
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    right: 22px;
-    top: 20px;
-  }
+   position: absolute;
+   height: 42px;
+   width: 42px;
+   padding-bottom: 3px;
+   padding-right: 1px;
+   right: 22px;
+   top: 20px;
+   border: 1px solid #000;
+   border-radius: 50px;
+ }
 }
 
 
