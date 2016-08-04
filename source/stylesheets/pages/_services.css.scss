@@ -47,19 +47,19 @@
     animation: AnimationName 20s ease infinite;
 
     @-webkit-keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
+      0%{background-position:10% 0%}
+      50%{background-position:91% 100%}
+      100%{background-position:10% 0%}
     }
     @-moz-keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
+      0%{background-position:10% 0%}
+      50%{background-position:91% 100%}
+      100%{background-position:10% 0%}
     }
     @keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
+      0%{background-position:10% 0%}
+      50%{background-position:91% 100%}
+      100%{background-position:10% 0%}
     }
 
 
@@ -69,8 +69,28 @@
       width: 760px;
     }
   }
-}
 
+
+  .arrow-lets {
+    height: 42px;
+    padding-top: 1em;
+    a {
+      position: absolute;
+      width: 325px;
+      height: 25px;
+      z-index: 2;
+    }
+    span {
+      position: absolute;
+      z-index: 1;
+      margin-left: 175px;
+      img {
+        width: 26%;
+        max-width: 55%;
+      }
+    }
+  }
+}
 // .services {
 
 //   .arrow-lets {
