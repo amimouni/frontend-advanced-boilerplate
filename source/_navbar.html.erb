@@ -6,7 +6,6 @@
         <%= image_tag "am_logo.svg" %>
         <% end %>
       </div>
-    <!--     <a href="http://www.annamimouni.com" class="navbar-portfolio-item navbar-portfolio-link">SERVICES</a> -->
       <div class="menu wow fadeInUp" data-wow-duration="2s">
         <div class="navbar-portfolio-item navbar-portfolio-link">
           <%= link_to "SERVICES", "/services.html"%>
@@ -30,14 +29,16 @@
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-portfolio-content show-sm hidden-md hidden-lg">
     <% link_to "/", class: "navbar-portfolio-brand" do %>
-    <%= image_tag "anna_logo-01.svg" %>
+    <%= image_tag "am_logo.svg" %>
     <% end %>
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-portfolio-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
+        <li><%= link_to "Services", "/services.html"%></li>
+        <li><%= link_to "Projects", "/projects.html"%></li>
+        <li><%= link_to "How I work", "/howiwork.html"%></li>
+        <li><%= link_to "About", "/about.html"%></li>
+        <li><%= link_to "Contact", "/contact.html"%></li>
       </ul>
     </div>
   </div>
