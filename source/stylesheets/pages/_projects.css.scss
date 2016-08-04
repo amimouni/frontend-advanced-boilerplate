@@ -169,12 +169,14 @@
   }
   .card-project {
     .padd {
+      -webkit-filter: brightness(100%);
       margin: 5px;
       background: #fff;
       border-radius: 6px;
-      -webkit-cursor: pointer;
-      cursor: pointer;
+      -webkit-cursor: zoom-in;
+      cursor: zoom-in;
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
       .text-padd {
         padding: 5px 12px;
         h3 {
@@ -198,6 +200,24 @@
       -moz-border-radius: 6px 6px 0 0;
       border-radius: 6px 6px 0 0;
     }
+  }
+  // .padd:hover {
+  //   transition: opacity .04s linear;
+  // }
+
+  .padd:hover {
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%);
+    -webkit-transition: all .04s ease;
+    -moz-transition: all .04s ease;
+    -o-transition: all .04s ease;
+    -ms-transition: all .04s ease;
+    transition: all .04s ease;
+  }
+
+
+  .img-container:hover {
+    // opacity: .1;
   }
 }
 
@@ -224,7 +244,7 @@
 
 }
 
-.btn-link:active, .btn-link:focus, .btn-link:visited {
+.btn-link:active, .btn-link:focus, .btn-link:visited, .btn-link:visited:active {
   text-decoration: none;
   outline: none;
   border: none;
@@ -308,13 +328,34 @@
     z-index: 2;
     height: 42px;
     width: 42px;
+    font-weight: 100;
     padding-bottom: 3px;
-    padding-right: 1px;
-    right: 22px;
-    top: 20px;
-    border: 1px solid #000;
+    right: 3vh;
+    top: 3vh;
+
     border-radius: 50px;
+    // -webkit-box-shadow: 0px 1px 2px 1px rgba(102, 102, 102, 0.75);
+    // box-shadow: 0px 1px 2px 1px rgba(102, 102, 102, 0.75);
+    color: white;
+    span {
+      width: 12vh;
+    }
   }
+  button.close {
+    background: #c2c2c2;
+            opacity: 1;
+  }
+  button:hover {
+    background: $green;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    border: none;
+      text-decoration: none;
+  outline: none;
+  border: none;
+  }
+
 }
 
 
