@@ -1,43 +1,43 @@
 .projects {
- background-color: $gray-light-bg;
- .container.content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-top: 15vh;
-  padding-bottom: 6vh;
-}
-.text, .icon {
-  margin-top: 1em;
-  margin-bottom: 6em;
-}
-.text {
-  flex: 1 50%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.icon {
-  flex: 1 50%;
-  display: flex;
-  justify-content: center;
-  img {
-    width: 32vh;
-    max-height: 32vh;
-    margin: 2vh;
+  background-color: $gray-light-bg;
+  .container.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 15vh;
+    padding-bottom: 6vh;
   }
-}
-.arrow-lets img {
-  max-width: 30%;
-}
-.banner-centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: image-url('images/colors.jpeg');
-  background-size: cover;
-  position: relative;
-  min-height: 36em;
-  background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%);
+  .text, .icon {
+    margin-top: 1em;
+    margin-bottom: 6em;
+  }
+  .text {
+    flex: 1 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .icon {
+    flex: 1 50%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 32vh;
+      max-height: 32vh;
+      margin: 2vh;
+    }
+  }
+  .arrow-lets img {
+    max-width: 30%;
+  }
+  .banner-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: image-url('images/colors.jpeg');
+    background-size: cover;
+    position: relative;
+    min-height: 36em;
+    background: linear-gradient(135deg,rgba(55,20,173,.9) 0,rgba(204,0,0,.9) 100%);
     // background: linear-gradient(316deg, #1bd4a4, #1b2fd4, #d41bcd);
     background-size: 200%;
 
@@ -178,11 +178,11 @@
       .text-padd {
         padding: 5px 12px;
         h3 {
-        font-size: 0.9em;
-        line-height: 1.7em;
-        letter-spacing: 0.01em;
-        color: $gray-dark;
-        padding-bottom: 0vh;
+          font-size: 0.9em;
+          line-height: 1.7em;
+          letter-spacing: 0.01em;
+          color: $gray-dark;
+          padding-bottom: 0vh;
         }
         h4 {
           color: $gray-text;
@@ -304,16 +304,17 @@
     }
   }
   button {
-   position: absolute;
-   height: 42px;
-   width: 42px;
-   padding-bottom: 3px;
-   padding-right: 1px;
-   right: 22px;
-   top: 20px;
-   border: 1px solid #000;
-   border-radius: 50px;
- }
+    position: fixed;
+    z-index: 2;
+    height: 42px;
+    width: 42px;
+    padding-bottom: 3px;
+    padding-right: 1px;
+    right: 22px;
+    top: 20px;
+    border: 1px solid #000;
+    border-radius: 50px;
+  }
 }
 
 
