@@ -24,9 +24,10 @@
             <br>Visual identity
             <br>Advertising
           </p>
-          <% link_to "/", class: "arrow-lets" do %>
-            Lets chat about this   <span><%= image_tag "long_arrow-01.svg", class: "" %></span>
-          <% end %>
+        <div class="text not-padded arrow-lets">
+          <%= mail_to 'contact@annamimouni.com', "Lets chat about this", subject: "Hello" %>
+          <span><%= image_tag "long_arrow-01.svg" %></span>
+        </div>
         </div>
         <div class="icon">
           <img src="/images/strategy.svg"  alt="strategy" />
