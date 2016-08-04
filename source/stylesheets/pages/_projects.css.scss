@@ -219,19 +219,22 @@
   text-decoration: none;
   outline: none;
   border: none;
+  // color: $gray-text;
 
 
 }
 
-.btn-link:active, .btn-link:focus {
+.btn-link:active, .btn-link:focus, .btn-link:visited {
   text-decoration: none;
   outline: none;
   border: none;
-  color: $gray;
+  color: $gray-dark;
 }
 
 
 /********* Modal Projects cards *********/
+
+
 .modal {
   &-container {
     width: 1000px;
@@ -248,9 +251,28 @@
   }
   &-banner {
     text-align: center;
-    padding: 4vh;
+    padding: 0vh;
     h2 {
       padding-top: 10vh;
+    }
+  }
+  &-body {
+    position: relative;
+    padding: 0px;
+    p {
+      line-height: 1.4em;
+      letter-spacing: 0.01em;
+      color: #818181;
+      font-size: 0.9em;
+    }
+    h2 {
+      padding-bottom: 1vh;
+    }
+    h4 {
+      padding-bottom: 4vh;
+    }
+    .paragraph {
+      padding: 2em 6em 2em 6em;
     }
   }
   &-description {
@@ -259,14 +281,20 @@
     display: flex;
     padding: 2em 0;
     margin: 2em 0;
-    h3 {
-      padding-top: 1em;
-      padding-bottom: 1em;
+    h3, h4 {
+      padding-top: 1.4em;
+      padding-bottom: 0.6em;
+      letter-spacing: 0.01em;
     }
     p {
-      font-size: 1em;
-      line-height: 1.2em;
-      padding-bottom: 1em;
+      line-height: 1.4em;
+      letter-spacing: 0.01em;
+      color: #818181;
+      font-size: 0.9em;
+    }
+    .categories-tags {
+      color: $green;
+      text-transform: uppercase;
     }
     .left-col, .middle-col {
       padding-right: 2em;
