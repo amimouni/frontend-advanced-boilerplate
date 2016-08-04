@@ -32,23 +32,23 @@
         <div class="modal-description">
           <div class="left-col flex1">
             <div>
-              <h3><%= modal.description.title_left_1.titleize %></h3>
+              </strong><h4><%= modal.description.title_left_1.titleize %></h4></strong>
               <p><%= modal.description.text_left_1 %></p>
             </div>
             <div>
-              <h3><%= modal.description.title_left_2.titleize %></h3>
-              <p><%= modal.description.text_left_2 %></p>
+              <strong><h4><%= modal.description.title_left_2.titleize %></h4></strong>
+              <p class="categories-tags"><%= modal.description.text_left_2 %></p>
             </div>
           </div>
           <div class="middle-col flex2">
             <div>
-              <h3><%= modal.description.title_middle.capitalize %></h3>
+              <strong><h4><%= modal.description.title_middle.capitalize %></h4></strong>
               <p><%= modal.description.text_middle %></p>
             </div>
           </div>
           <div class="right-col flex1">
             <div>
-              <h3><%= modal.description.title_right.titleize %></h3>
+              <strong><h4><%= modal.description.title_right.titleize %></h4></strong>
               <p><%= modal.description.text_right %></p>
             </div>
           </div>
@@ -59,11 +59,12 @@
           <% if item[0].include? "title" %>
           <h2 class="text-center"><%= item[1] %></h2>
           <% elsif item[0].include? "sub" %>
-          <h4><%= item[1] %></h4>
+          <h4 class="text-center"><%= item[1] %></h4>
           <% elsif item[0].include? "image" %>
           <%= image_tag item[1] %>
           <% else %>
-          <h4><%= item[1] %></h4>
+          <div class="paragraph"><p><%= item[1] %></p></div>
+
           <% end %>
           <% end %>
         </div>
