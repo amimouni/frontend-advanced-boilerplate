@@ -25,9 +25,7 @@
       margin: 2vh;
     }
   }
-  .arrow-lets img {
-    max-width: 30%;
-  }
+
   .banner-centered {
     display: flex;
     align-items: center;
@@ -80,14 +78,12 @@
       height: 25px;
       z-index: 2;
     }
-    span {
+    img {
+      width: 70px;
       position: absolute;
       z-index: 1;
       margin-left: 175px;
-      img {
-        width: 26%;
-        max-width: 55%;
-      }
+
     }
   }
 }

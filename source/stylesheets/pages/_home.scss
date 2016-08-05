@@ -78,12 +78,13 @@
         // padding-top: 17px;
         // padding-bottom: 15px;
         // border: 2px solid white;
-        &:hover {
+        &:hover, &:active, &:focus {
           color: white;
           // border-color: $red;
           // background-color: $red;
           text-decoration: none;
           text-shadow: none;
+          outline: none;
         }
       }
     }
@@ -163,7 +164,9 @@ animation: type 4s steps(60, end);
     .icon-down-banner {
       width: 2em;
       margin-top: -5em;
-
+      a {
+        outline: none;
+      }
     }
     .pulse {
       animation-name: pulse;
@@ -173,7 +176,15 @@ animation: type 4s steps(60, end);
       -webkit-animation-duration: 9s;
     }
 
-    @keyframes .pulse {
+    .pulse-arrow {
+      animation-name: pulse;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: pulse;
+      -webkit-animation-duration: 15s;
+    }
+
+    @keyframes .pulse, .pulse-arrow {
       100% {
         background-color: #001F3F;
       }
@@ -207,6 +218,12 @@ animation: type 4s steps(60, end);
         padding-bottom: 14vh;
       }
     }
+      img {
+      text-decoration: none;
+      outline: none;
+      border: none;
+    }
+
   }
 
   .main-circle {
@@ -221,8 +238,21 @@ animation: type 4s steps(60, end);
     width: 72%;
 
     // width: 60%;
+    .bounce {
+        animation-name: bounce;
+        -webkit-animation-name: bounce;
+        animation-duration: 1.6s;
+        -webkit-animation-duration: 1.6s;
+        animation-timing-function: ease;
+        -webkit-animation-timing-function: ease;
+        transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        -webkit-transform-origin: 50% 100%;
+    }
+
     img {
       width: 100%;
+
     }
     // padding-left: 3em;
     // padding-left: 3em;
@@ -324,10 +354,15 @@ animation: type 4s steps(60, end);
     span {
       position: absolute;
       z-index: 1;
-      margin-left: 200px;
+      margin-left: 11.4em;
+      margin-top: 0.1em;
+
       img {
         max-width: 55%;
       }
+    }
+    .pulse-arrow svg {
+      fill: #1d4589;
     }
   }
 

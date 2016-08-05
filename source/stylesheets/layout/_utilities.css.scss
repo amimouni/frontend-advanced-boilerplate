@@ -59,6 +59,13 @@
   flex: 4;
 }
 
+.pulse-arrow {
+      animation-name: pulse;
+    animation-duration: 4.5s;
+    -webkit-animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
 
 
 
