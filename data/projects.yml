@@ -69,7 +69,7 @@ Starmatic:
   card:
     selector: ux-ui
     image: starmatic_logo.png
-    text: Bla bla bla
+    text: UX &amp UI
   modal:
     title: Creative direction of Au Depart
     img_banner: starmatic_screen.png
