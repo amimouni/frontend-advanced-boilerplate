@@ -20,12 +20,13 @@
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.22);
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.22);
     // border-radius: 6px;
-
+    border-radius: 50%;
+    margin-right: 2em;
     width: 11em;
     height: 11em;
-    border-radius: 50%;
     // box-shadow: 0px 1px 3px rgb(167, 167, 167);
-    border: #f9f9f9 6px solid;
+    border: #f9f9f9 4px solid;
+
   }
 
   .line-div {
@@ -150,40 +151,46 @@
   .me {
     flex: 1 50%;
     padding-right: 2em;
-      .intro {
-        flex-direction: row;
-        display: flex;
-        justify-content: flex-start;
-            padding-bottom: 2vh;
-        // padding-bottom: 1.6em;
-        .text {
-          margin-top: 2em;
-          // padding-bottom: 4vh;
-          h1 {
-            font-weight: 500;
-            font-size: 3em;
-            padding-bottom: 0vh;
-            line-height: 3vh;
-            color: $gray-dark;
-            // margin-top: 5vh;
-          }
-          h2 {
-            font-size: 2em;
-            margin-top: 0.6em;
-            padding-bottom: 0.4em;
-            color: $gray-text;
-          }
-          h3 {
-                padding-bottom: 4vh;
-          }
+    .intro {
+      flex-direction: row;
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 4vh;
+      align-items: center;
+      // padding-bottom: 1.6em;
+      .text {
+        margin-top: 0em;
+        // padding-bottom: 4vh;
+        h1 {
+          font-weight: 500;
+          font-size: 2.6em;
+          padding-bottom: 0vh;
+          line-height: 6vh;
+          color: $gray-dark;
+          // margin-top: 5vh;
         }
-        .avatar-bordered {
-          margin-right: 2em;
+        h2 {
+          font-size: 2em;
+          margin-top: 0em;
+          padding-bottom: 0em;
+          line-height: 5vh;
+          color: $gray-text;
         }
-
+        h3 {
+              padding-bottom: 0vh;
+              line-height: 4vh;
+        }
+        h4 {
+          color: #818181;
+          font-size: 0.9em;
+          line-height: 1.7em;
+          letter-spacing: 0.01em;
+        }
       }
-
-
+    }
+    .about-text {
+      padding-bottom: 8vh;
+    }
   }
   .bars {
     flex: 1 30%;
@@ -441,18 +448,34 @@
           background: $green;
         }
       }
-
     }
+
     .blue-border-holder {
+      display: flex;
+      justify-content: space-between;
+      .border-holder {
       border: 1px solid #1EB5E2;
       border-radius: 20px;
-      background-color: $gray-lighter;
-      .bar {
-        margin-bottom: 0em;
-        border-radius: 20px;
-        background: #1EB5E2;
+
+        .bar {
+          background: #1EB5E2;
+          .label {
+             width: 8em;
+
+          }
+        }
       }
+
     }
+
+    .col-xs-4 {
+      width: 8em;
+
+      padding-left: 0px;
+      padding-right: 0px;
+      // justify-content: space-between;
+    }
+
   }
   h1 {
     font-weight: bold;
