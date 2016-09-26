@@ -172,7 +172,7 @@
   .card-project {
     .padd {
       -webkit-filter: brightness(100%);
-      margin: 5px;
+      margin: 8px;
       background: #fff;
       border-radius: 6px;
       -webkit-cursor: zoom-in;
@@ -278,6 +278,11 @@
     padding: 0vh;
     h2 {
       padding-top: 10vh;
+      padding-bottom: 3vh;
+    }
+    .modal-title {
+      padding-left: 14vh;
+      padding-right: 14vh;
     }
   }
   &-body {
@@ -291,6 +296,7 @@
     }
     h2 {
       padding-bottom: 1vh;
+      padding-top: 3vh;
     }
     h4 {
       padding-bottom: 4vh;
@@ -304,7 +310,7 @@
     border-bottom: 1px solid #ccc;
     display: flex;
     padding: 2em 0;
-    margin: 2em 0;
+    margin: 0em 0;
     h3, h4 {
       padding-top: 1.4em;
       padding-bottom: 0.6em;
