@@ -1,61 +1,59 @@
-Belber:
+
+Monte-Carlo:
   idx: 1
   card:
-    selector: creative-direction illutration
-    image: belber_build.png
-    text: Creative Direction · Fashion Design
+    selector: creative-direction illustration
+    image: montecarlo01.jpg
+    text: Art Direction · Illustration · Logo
   modal:
-    title: Belber - The revival of a sleeping beauty.
-    img_banner: belber_logo.jpg
+    title: Creative direction of Monte-Carlo Société des Bains de Mer
+    img_banner: montecarlo01.jpg
     description:
       title_left_1: client
-      text_left_1: Belber
+      text_left_1:  Monte-Carlo Société des Bains de Mer
       title_left_2: Categories
-      text_left_2: Art Direction · Fashion Design.
-      title_middle: Creative direction of Belber
-      text_middle: Belber, the Philadelphia-born trunk maker and luggage specialist that became the world’s largest luggage manufacturer in the first half of the 20th century, returns as a unisex leather goods brand after being dormant for 4 decades. I worked on the revival of the brand,revamping visual identity and I designed new lines of bags and accessories, bringing the original brand and its values back to life.
+      text_left_2: Artistic Direction
+      title_middle: Project
+      text_middle: Monte-Carlo manages and owns four luxury hotels, five casinos, three spas, 33 restaurants and organises major events all year round. My mission was very large and diversified. Over a year of work with the company I delivered branding, logos, websites, mobile apps, illustrations, environmental and many printed communications.
       title_right: Involvement
-      text_right: Art Director. Product Designer. Creative Director. Logo.
+      text_right: Artistic Director
     body:
-      title_1: Artistic direction, logo re-creation and design of lines of leather goods.
-      sub_1: A selection of the designs of this project
-      image_1: belber03.png
-      title_4: "Personalisation on luggages"
-      sub_4: I created a lettring system and color system for personalisation
-      image_4: belber04.png
-      image_5: belber05.png
-      image_6: belber06.png
-      title_6: "Packaging"
-      sub_6: A trendy, smart and colorfull packaging
-      image_7: belber07.png
-      title_7: Visual identity
-      image_8: belber08.png
-      title_9: Colorfull version of the logo
-      sub_9: To revamp the brand I had to work on a new logo in black that would be chic and elegant and here I made the colored version of it.
-      image_9: belber09.png
-      title_10: Study for shapes
-      sub_10: This is an exemple of search I made for the jeweleries and the bag design
-      image_10: belber10.png
-      title_11: Collaterals
-      sub_11: To help Belber communicate, they needed a pannel of collaterals that would represent the essence of the brand, elegant and ancestral.
-      image_11: belber11.png
-      title_12: Frontdoor, watercolor
-      sub_12: This is an inspirationnal watercolor for the shop.
-      image_12: belber12.png
-      title_13: Bags, suitcase and leather goods
-      sub_13: Design of lines inspired by the collections from the past century.
-      image_13: belber13.png
-      image_14: belber14.png
-      image_15: belber15.png
-      image_16: belber16.png
-      image_17: belber17.png
-      image_18: belber18.png
-      image_19: belber19.png
+      title_1: The logo, rebranding with a modern approach
+      text_1: I helped Monte-Carlo to realign their brand and visual identity to reflect their DNA. Their marketing collateral had become confused and fussy, so I helped them find a simpler, more confident approach immersed in their history.
+      image_1: logo_montecarlo.jpg
+      title_2: A selection of the designs of this project
+      title_3: Illustration for the Hôtel Hermitage
+      image_2: montecarlo02.png
+      title_4: Menu created for the Salon Rose
+      image_3: montecarlo03.png
+      title_5: Menu created for the Train Bleu
+      image_4: montecarlo04.png
+      title_6: Menu created for the Sporting's 40th anniversary
+      image_5: montecarlo05.png
+      title_7: Logo created for the Sporting's 40th anniversary
+      image_6: montecarlo06.png
+      title_8: Logo creation for the renovations
+      image_7: montecarlo07.png
+      title_9: Logo for Monte-Carlo Live a website to get all the info on concerts
+      image_8: montecarlo08.png
+      title_10: Poster for the end of the year events
+      image_9: montecarlo09.png
+      title_11: Poster for the autumnal concerts season
+      image_10: montecarlo10.png
+      title_12: Logo for the 40th anniversary
+      image_11: montecarlo11.png
+      title_13: Pop up card for the best poker players
+      image_12: montecarlo12.png
+      image_13: montecarlo13.png
+      title_14: VIP player's card
+      image_14: montecarlo14.png
+      title_15: Invitation for a private party
+      image_15: montecarlo15.png
 
 Au Depart:
   idx: 2
   card:
-    selector: creative-direction
+    selector: creative-direction illustration
     image: audepart.png
     text: Creative Direction · Fashion Design
   modal:
@@ -90,7 +88,7 @@ Starmatic - IOS mobile app:
   idx: 3
   card:
     selector: ux-ui mobile-app
-    image: starmatic_screen.png
+    image: starmatic00.png
     text: UX &amp UI · Mobile App
   modal:
     title: Product designer of Starmatic — a toy-camera app and photo-sharing experience.
@@ -122,38 +120,59 @@ Starmatic - IOS mobile app:
       text_7: A camera app that emulates functions and the feel of the legendary Starmatic camera. Square, portrait and landscape pictures can all be imported. Vertical pictures can be viewed on full screen. Rich offer of filters, organized by family in a playful manner, and planned to grow.
       image_8: starmatic06.png
 
-Monte-Carlo:
+Belber:
   idx: 4
   card:
-    selector: creative-direction
-    image: logo_montecarlo.jpg
-    text: Bla bla bla
+    selector: creative-direction illutration
+    image: belber_build.png
+    text: Creative Direction · Fashion Design
   modal:
-    title: Creative direction of Au Depart
-    img_banner: logo_montecarlo.jpg
+    title: Belber - The revival of a sleeping beauty.
+    img_banner: belber_logo.jpg
     description:
       title_left_1: client
-      text_left_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      text_left_1: Belber
       title_left_2: Categories
-      text_left_2: Lorem ipsum dolor sit amet
-      title_middle: Belber direction artistique
-      text_middle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      text_left_2: Art Direction · Fashion Design.
+      title_middle: Creative direction of Belber
+      text_middle: Belber, the Philadelphia-born trunk maker and luggage specialist that became the world’s largest luggage manufacturer in the first half of the 20th century, returns as a unisex leather goods brand after being dormant for 4 decades. I worked on the revival of the brand,revamping visual identity and I designed new lines of bags and accessories, bringing the original brand and its values back to life.
       title_right: Involvement
-      text_right: Lorem ipsum dolor sit amet
+      text_right: Art Director. Product Designer. Creative Director. Logo.
     body:
-      title_1: "Wireframe, UX and UI"
+      title_1: Artistic direction, logo re-creation and design of lines of leather goods.
       sub_1: A selection of the designs of this project
-      image_1: starmatic_screen.png
-      image_2: http://placehold.it/350x40
-      title_2: "Homepage"
-      text_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      text_2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image_3: http://placehold.it/350x40
-      text_3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image_4: http://placehold.it/350x40
-      text_4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image_5: http://placehold.it/350x40
-      text_5: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      image_1: belber03.png
+      title_4: "Personalisation on luggages"
+      sub_4: I created a lettring system and color system for personalisation
+      image_4: belber04.png
+      image_5: belber05.png
+      image_6: belber06.png
+      title_6: "Packaging"
+      sub_6: A trendy, smart and colorfull packaging
+      image_7: belber07.png
+      title_7: Visual identity
+      image_8: belber08.png
+      title_9: Logo illustrated
+      sub_9: Colored illustration
+      image_9: belber09.png
+      title_10: Study for shapes
+      sub_10: This is an exemple of search I made for the jeweleries and the bag design
+      image_10: belber10.png
+      title_11: Collaterals
+      sub_11: To help Belber communicate, they needed a pannel of collaterals that would represent the essence of the brand, elegant and ancestral.
+      image_11: belber11.png
+      title_12: Frontdoor, watercolor
+      sub_12: This is an inspirationnal watercolor for the shop.
+      image_12: belber12.png
+      title_13: Bags, suitcase and leather goods
+      sub_13: Design of lines inspired by the collections from the past century.
+      image_13: belber13.png
+      image_14: belber14.png
+      image_15: belber15.png
+      image_16: belber16.png
+      image_17: belber17.png
+      image_18: belber18.png
+      image_19: belber19.png
 
 Seven Wizz:
   idx: 5
@@ -302,7 +321,7 @@ Gallery Suvi Lehtinen:
   idx: 10
   card:
     selector: creative-direction
-    image: gallery00.png
+    image: gallery0.png
     text: Art Direction · Print
   modal:
     title: Artistic direction for the catalogues of the art gallery Suvi Lehtinen, Berlin
@@ -372,7 +391,7 @@ Mamichou Daily food store:
   idx: 13
   card:
     selector: creative-direction illustration
-    image: mamichou01.png
+    image: mamichou000.png
     text: Artistic Direction · Illustration · Print
   modal:
     title: Visual identity for Mamichou a daily food store in Paris.
@@ -391,3 +410,116 @@ Mamichou Daily food store:
       image_1: mamichou00.png
       title_2: Collaterals
       image_2: mamichou02.png
+
+Book covers:
+  idx: 14
+  card:
+    selector: creative-direction
+    image: cover.png
+    text: Book · Print
+  modal:
+    title: Book covers design
+    img_banner: cover04.jpg
+    description:
+      title_left_1: Book Covers
+      text_left_1:
+      title_middle: Client
+      text_middle: Art Gallery
+      title_left_2: Categories
+      text_left_2: Design · Illustration · Print.
+      title_right: Illustration
+      text_right:
+    body:
+      title_1:
+      sub_1:
+      image_1: cover01.jpg
+      image_2: cover02.jpg
+      image_3: cover03.jpg
+      image_5: cover05.jpg
+      image_6: cover06.jpg
+      image_7: cover07.jpg
+      image_8: cover08.jpg
+
+Café Lomi:
+  idx: 15
+  card:
+    selector: ux-ui
+    image: lomi00.png
+    text: UX &amp UI · Web
+  modal:
+    title: Cafe Lomi, Website
+    img_banner: lomi.png
+    description:
+      title_left_1: client
+      text_left_1: Lomi
+      title_middle: UX and UI
+      text_middle: Lomi is a coffee brewer and a coffee shop. I helped them creating a website that translate their skills and their art.
+      title_left_2: Categories
+      text_left_2: Product Design · Branding · Web.
+      title_right: Involvement
+      text_right: UX and UI. Web design.
+    body:
+      title_1: Wireframes, UX and UI
+      sub_1: A selection of the designs for this project
+      text_1: I created an elegant and simple website for Lomi, coffee brewer
+      image_1: lomi01.png
+      image_2: lomi02.png
+      image_3: lomi03.png
+      image_4: lomi04.png
+      image_5: lomi05.png
+      image_6: lomi06.png
+
+Lomi Machine:
+  idx: 16
+  card:
+    selector: ux-ui
+    image: lomimachine00.png
+    text: UX &amp UI · Web
+  modal:
+    title: Lomi Machine, Website
+    img_banner: lomimachine.png
+    description:
+      title_left_1: client
+      text_left_1: Lomi
+      title_middle: UX and UI
+      text_middle: Lomi is selling coffee machines. I helped them creating a simple and modern eshop.
+      title_left_2: Categories
+      text_left_2: Product Design · Branding · Web.
+      title_right: Involvement
+      text_right: UX and UI. Web design.
+    body:
+      title_1: Wireframes, UX and UI
+      sub_1: A selection of the designs for this project
+      text_1: I created an elegant and simple website for Lomi.
+      image_1: lomimachine01.png
+      image_2: lomimachine02.png
+      image_3: lomimachine03.png
+      image_4: lomimachine04.png
+      image_5: lomimachine05.png
+
+Sublime House:
+  idx: 17
+  card:
+    selector: ux-ui
+    image: sublime.png
+    text: UX &amp UI · Web
+  modal:
+    title: Sublime House designing the website
+    img_banner: sublime00.png
+    description:
+      title_left_1: client
+      text_left_1: Sublime House
+      title_middle: UX and UI
+      text_middle: Sublime House is a co-working and co-living house retreat for women in tech.
+      title_left_2: Categories
+      text_left_2: Product Design · Branding · Web.
+      title_right: Involvement
+      text_right: UX and UI. Web design.
+    body:
+      title_1: UX and UI
+      sub_1: A selection of the designs for this project
+      text_1: I created an elegant and simple website for Sublime House.
+      image_1: sublime01.png
+      image_2: sublime02.png
+      image_3: sublime03.png
+      image_4: sublime04.png
