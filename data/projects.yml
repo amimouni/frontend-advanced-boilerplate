@@ -91,7 +91,7 @@ Starmatic - IOS mobile app:
     image: starmatic00.png
     text: UX &amp UI · Mobile App
   modal:
-    title: Product design of Starmatic: a toy-camera app and photo-sharing experience.
+    title: Product design of Starmatic, a toy-camera app and photo-sharing experience.
     img_banner: starmaticensemble.png
     description:
       title_left_1: client
@@ -110,7 +110,7 @@ Starmatic - IOS mobile app:
       title_2: "Mobile template designs"
       text_1: Starmatic is a toy-camera app and visual creativity platform based on the legendary Kodak Brownie Starmatic. The app crafts a new visual and social experience by putting picture and user experience quality center stage, while simultaneously modeling a much beloved toy camera from Eastman Kodak made during the late 1950s. Fun to use, but with deep feature set, Starmatic is designed to attract serious iPhoneographers as well as entry mobile photo enthusiasts.
       image_3: starmatic02.png
-      text_3: The filters are grouped as rolls of film (a wink to the 127 negatives used by Starmatic cameras) and the app even comes with the “Starmacolor” film, featuring 16 filters for a variety of color processing not found in previous apps -- a differentiator that took several extra months developing in iOS and that was done in collaboration with experienced iPhoneographers and Brownie lovers.
+      text_3: The filters are grouped as rolls of film (a wink to the 127 negatives used by Starmatic cameras) and the app even comes with the “Starmacolor” film, featuring 16 filters for a variety of color processing not found in previous apps - a differentiator that took several extra months developing in iOS and that was done in collaboration with experienced iPhoneographers and Brownie lovers.
       image_4: starmaticfilters.png
       image_5: starmatic03.png
       text_4: A focus on qualitative experience rather than quantitative. Like Vimeo vs. Youtube, or 500px vs. Flickr. Discovery section highlights trending tags, photos near you and most interesting users of the moment. Search tool browses to easily find pictures, tags and users and all results within one screen.
@@ -205,7 +205,7 @@ Bostes NSW Australia:
     image: bostes.png
     text: Brand identity · Logo · Creative direction
   modal:
-    title: Branding - Board of Studies Teaching and Educational Standards NSW Australia: serves teachers and a million students
+    title: Branding - Board of Studies Teaching and Educational Standards NSW Australia, serves teachers and a million students
     img_banner: bostes_ipad.png
     description:
       title_left_1: client
