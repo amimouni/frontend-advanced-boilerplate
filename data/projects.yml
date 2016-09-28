@@ -3,7 +3,7 @@ Monte-Carlo:
   idx: 1
   card:
     selector: creative-direction illustration
-    image: montecarlo01.jpg
+    image: montecarlo00.png
     text: Art Direction · Illustration · Logo
   modal:
     title: Creative direction for Monte-Carlo Société des Bains de Mer
@@ -124,7 +124,7 @@ Belber:
   idx: 4
   card:
     selector: creative-direction illutration
-    image: belber_build.png
+    image: belber_blackbag.jpg
     text: Creative Direction · Fashion Design
   modal:
     title: Belber - The revival of a sleeping beauty.
