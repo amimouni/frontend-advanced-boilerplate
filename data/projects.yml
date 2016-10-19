@@ -490,12 +490,17 @@ Lomi Machine:
     body:
       title_1: Wireframes, UX and UI
       sub_1: A selection of the designs for this project
-      text_1: I created an elegant and simple website for Lomi.
-      image_1: lomimachine01.png
-      image_2: lomimachine02.png
-      image_3: lomimachine03.png
-      image_4: lomimachine04.png
-      image_5: lomimachine05.png
+      text_1: At first the idea was to have one website selling coffee beans and machines for professionals. After brainstorming sessions, listing features, hierarchy, priorization process and trade offs, we made the choice of separating the offers in two websites, one website for the pros like restaurants and coffeeshops, one website for individuals.
+      image_1: lomimachine06.png
+      text_2: Lomi Machine became the offers for professionals who needs hight quality equipements for their restaurant. We decided to go for an elegant and simple website for Lomi Machine that would leave space to the equipements. It was important that the offer would be explained very simply.
+      image_2: lomimachine01.png
+      text_3: The machines have many options and simplifying the features choices was a very important focus. We spent a lot of time classifying machines, their pieces and options to understand how to design it better. Depending on the option you click, you get an other list of options. We came to a point where a dynamic pull-down menu made in Ajax was an obvious answer.
+      image_3: lomimachine02.png
+      image_4: lomimachine03.png
+      image_5: lomimachine04.png
+      image_6: lomimachine05.png
+      image_7: lomi05.png
+
 
 Sublime House:
   idx: 17
