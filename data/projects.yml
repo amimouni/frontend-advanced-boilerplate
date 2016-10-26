@@ -481,19 +481,24 @@ Lomi Machine:
     description:
       title_left_1: client
       text_left_1: Lomi
-      title_middle: UX and UI
-      text_middle: UX and UI, Lomi sells coffee machines. I helped them create a simple and modern e-shop.
+      title_middle: UX and UI - Creative Strategy
+      text_middle: Lomi is a coffee roaster, a coffee shop and started selling coffee machines for professionals. I helped them create two simple websites that translate their skills and their art with a modern approach.
       title_left_2: Categories
       text_left_2: Product Design · Branding · Web.
       title_right: Involvement
       text_right: UX and UI. Web design.
     body:
-      text_1: At first the idea was to have one website selling coffee beans and machines for professionals. After brainstorming sessions, listing features, hierarchy, priorization process and trade offs, we made the choice of separating the offers in two websites, one website for the pros like restaurants and coffeeshops, one website for individuals.
+      text_1: At first when Lomi came to me they had a complex offer that they wanted to represent on their website. The idea was to have a website selling roasted coffee beans and equipments for individuals and professionals. After many brainstorming sessions, listing the features, hierarchyzation, priorization process and trade offs, we made the choice of separating the offer into two websites, one for the pros like restaurants and coffeeshops, one for individuals. Let''s see the story behind it.
+      title_1: Use case
       image_1: lomimachine_usecase.png
       title_2: Personas
-      text_2: There is two kinds of users, the professionals and the individuals. I translated the stories in english.
+      text_2: There is two kinds of users, the professionals and the individuals. Here are the stories translated in english.
       image_2: lomimachine_persona.png
+      title_3: Lomi User scenario
+      text_3: When an individual wants to shop at Lomi, he can go online or buy products at the coffeeshop. He can buy online coffee beans, small coffee equipments, and cupping trainings. At the coffee shop he can order a hot coffee or have lunch and get advices to buy coffee beans.
+      text_4: For a professional the option of going online to buy equipment or coffee beans is possible but at this point the clients always need to talk with someone to get a better understanding of the product they are buying but it is important that they can get already as many infos as they possible through the website and that they see the panel of machines that Lomi has to offer. After having chosen the equipment they can choose to buy the maintenance services or they can buy trainings at Lomi school for their employees to learn the art of coffee from the choice of the beans to the art of brewing. Another important point is that the coffee beans can be tailor-made for a client or even conceived with him. The coffee beans will be delivered by cargo bike to the restaurant or hotel every week.
       image_3: lomimachine0.png
+      text_5: By classifying features and ordering them we came to the point that what was commun for individuals and professionals was the beans, the roasting, the story and the plantation. The ordering was not the same as profesionals because professionals would mainly talk directly to Lomi to order when individuals were are buying directly at the shop or can order online and the point was trying to raise the online sell. After ordering features in different orders, we decided that it would be too confusing for individuals to have access to professional equipments so we made the choice of splitting the offer into two websites.
       image_4: lomimachine06.png
       title_5: UX and UI, a selection of the designs for this project
       text_5: Lomi Machine became the offers for professionals who needs hight quality equipements for their restaurants, hotels or coffee shops. We decided to go for an elegant and simple website for Lomi Machine that would leave space to the equipements. It was important that the offer would be very clear.
