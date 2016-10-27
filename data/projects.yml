@@ -1,4 +1,3 @@
-
 Monte-Carlo:
   idx: 1
   card:
@@ -6,7 +5,7 @@ Monte-Carlo:
     image: montecarlo000.png
     text: Art Direction · Illustration · Logo
   modal:
-    title: Creative direction for Monte-Carlo Société des Bains de Mer
+    title: Creative direction for Monte-Carlo Société des Bains de Mer.
     img_banner: montecarlo01.jpg
     description:
       title_left_1: client
@@ -50,39 +49,75 @@ Monte-Carlo:
       title_15: Invitation for a private party
       image_15: montecarlo15.png
 
-Au Depart:
+Lomi - Websites:
   idx: 2
   card:
-    selector: creative-direction illustration
-    image: audepart.png
-    text: Creative Direction · Fashion Design
+    selector: ux-ui
+    image: lomi00.png
+    text: UX &amp UI · Web
   modal:
-    title: Creative direction for Au Départ, a leather good company established in 1834
-    img_banner: audepart000.png
+    title: Lomi, coffee specialist.
+    img_banner: lomi.png
     description:
       title_left_1: client
-      text_left_1: Au Départ
+      text_left_1: Lomi
+      title_middle: Creative Strategy - UX & UI
+      text_middle: Lomi is a specialist coffee roaster, and a coffee shop. In 2016 they started selling coffee machines for professionals. I helped them create two websites that translate their skills and their art with a modern approach.
       title_left_2: Categories
-      text_left_2: Art Direction · Logo · Fashion Design · Visual Identity
-      title_middle: Creative direction for Au Départ
-      text_middle: Au Départ is a Parisian trunk-maker founded in Paris in 1834, selling luggage and travel goods. Au Départ is considered as one of the four greatest French trunk-makers alongside Louis Vuitton, Goyard and Moynat.
+      text_left_2: Product Design · Branding · Web.
       title_right: Involvement
-      text_right: Au Départ had been dormant for decades, so my mission was to prepare the revival of the brand. My work consisted of nurturing the development of the identity while respecting the brand''s DNA and essence. This included the reshaping of the logo, the monogram, and the creation of a new line of bags, trunk and leather goods.
+      text_right: UX and UI. Web design. I was responsible for the experience strategy and design of the website. I lead the UX work, producing all deliverables.
     body:
-      title_1: "The logo"
-      sub_1: The logo
-      image_1: audepart_logo.png
-      title_2: The monogramm
-      sub_2: Reshaping the monogram was very important; as with Vuitton or Goyard the monogram is essential to the brand identity.
-      image_2: audepart04.png
-      title_3: "Leather goods"
-      image_3: audepart01.png
-      title_4: Tote bag
-      image_4: audepart03.png
-      title_5: Trunk
-      image_5: audepart02.png
-      title_6: Visual identity
-      image_6: audepart05.png
+      text_1: Lomi approached me with two primary objectives — to enhance their selling of coffee beans beyond their clients; and to promote their new market offers that were growing fast of coffee machines for professionals and the opening of a new space for the training school. I was tasked to clarify their diversified offer, through their different types of customers. The combination of individuals and professionals as clients meant I needed to dive into their business in the first week.
+      title_2: 2 websites
+      text_2: At first when Lomi came to me they had a complex offer that needed to be clarified. The idea was to have two separated websites, one for professionals with coffee machines, coffee beans and training school and one for individuals with coffee beans, the shop presentation and small coffee equipments.
+      title_3: Focusing on users goals
+      text_3: Although the brief was to develop better clarification for our client's customers, we stressed that engaging in two different websites; one website for professionals one for individuals was neither strategic, nor had the best interests of the users at heart. We were thrilled by the opportunity to create something more meaningful. After many brainstorming sessions and trade offs, we made the choice of separating the offers into two websites. Let''s see the story behind it.
+      title_4: Starting on the same page
+      text_4: Meeting with key stakeholders helped me to understand their business challenges. Together we identified risks and aligned on expectations and constructed a shared vision for the website. Following this, I crafted an experience strategy outlining our phased approach and direction for the website.
+      title_5: The Discovery
+      text_5: The discovery phase was a quick, high-intensity effort that allowed us to define project milestones, audit the existing work, review the competitor landscape, understand our client''s vision, and begin research into user needs, behaviours and pain‐points. We also kicked off a technical discovery phase to understand feasibility and constraints. My research revealed that the coffee beans, and the story behind it was the thing in the middle that linked all the customers.
+      title_6: Use case
+      text_6: Understanding the usage contexts of the website helped me develop a clear vision of the tonal expectations of our users.
+      image_6: lomimachine_usecase.png
+      title_7: Personas
+      text_7: After designating persona types and aligning this with the phasing strategy I was able to prioritise who we would be focusing on. Our persona hypothesis consisted of five different archetypes which we used to facilitate discussions about our users needs, desires and varying contexts of use. Through careful analysis of my research, I identified sufficient behavioural variables to segment our user audience. I discussed the personas with my client to develop a clear picture of who the design of the website would target in phase 1 and later in future releases. There was two kinds of users, the professionals and the individuals. I used personas constantly throughout the project to guide design decisions, priorities, and create empathy amongst the client. Here are the stories translated in english.
+      image_7: lomimachine_persona.png
+      title_8: Lomi User scenario
+      text_8: When an individual wants to shop at Lomi, he can go online or buy products at the coffeeshop. He can buy online coffee beans, small coffee equipments, and cupping trainings. At the coffee shop he can order a hot coffee or have lunch and get advices to buy coffee beans.
+      image_8: lomimachine0.png
+      title_9: User Journey
+      text_9: For a professional the option of going online to buy equipment or coffee beans is possible but at this point the clients always need to talk with someone to get a better understanding of the product they are buying but it is important that they can get already as many infos as they possible through the website and that they see the panel of machines that Lomi has to offer. After having chosen the equipment they can choose to buy the maintenance services or they can buy trainings at Lomi school for their employees to learn the art of coffee from the choice of the beans to the art of brewing. Another important point is that the coffee beans can be tailor-made for a client or even conceived with him. The coffee beans will be delivered by cargo bike to the restaurant or hotel every week.
+      image_9: lomimachine_userjourney.png
+      title_10: Features
+      text_10: By classifying features and ordering them we came to the point that what was commun for individuals and professionals was the beans, the roasting, the story and the plantation. The ordering was not the same as profesionals because professionals would mainly talk directly to Lomi to order when individuals were are buying directly at the shop or can order online and the point was trying to raise the online sell. After ordering features in different orders, we decided that it would be too confusing for individuals to have access to professional equipments so we made the choice of splitting the offer into two websites.
+      image_10: lomimachine06.png
+      title_11: Rapid wireframes
+      text_11: The design of this site was very much led by the wireframes.
+      image_11: lomimachine_wireframe.png
+      title_12: UX and UI, a selection of the designs for this project
+      text_12: Lomi Machine became the offers for professionals who needs hight quality equipements for their restaurants, hotels or coffee shops. We decided to go for an elegant and simple website for Lomi Machine that would leave space to the equipements. It was important that the offer would be very clear.
+      title_13: Home page
+      text_13: The design of this site was very much led by the wireframes. A solid UX & UI foundation had been laid out to cover all areas, content types and scenarios...
+      image_13: lomi01.png
+      title_14: Photography
+      text_14: A photography brief was created to get shots specifically for the new website. It massively contributed to the aesthetic of the website.
+      image_14: lomi02.png
+      title_15: The story
+      text_15: The communication on the story was important, alongside with the client we decided to dedicate a whole page to the story.
+      image_15: lomi03.png
+      image_16: lomi04.png
+      image_17: lomi05.png
+      image_18: lomi06.png
+      title_19: Lomi machine
+      text_19: Lomi Machine is selling coffee machines for professionals, coffeeshops, restaurants, hôtels...
+      image_19: lomimachine01.png
+      title_20: Shop
+      text_20: The machines have many options and simplifying the features choices was a very important focus. We spent a lot of time classifying machines, their pieces and options to understand how to design it better. Depending on the option you click, you get an other list of options. We came to a point where a dynamic pull-down menu made in Ajax was an obvious answer.
+      image_20: lomimachine02.png
+      image_21: lomimachine03.png
+      image_22: lomimachine04.png
+      image_23: lomimachine05.png
 
 Starmatic - IOS mobile app:
   idx: 3
@@ -174,38 +209,14 @@ Belber:
       image_18: belber18.png
       image_19: belber19.png
 
-7Wizz:
-  idx: 5
-  card:
-    selector: ux-ui mobile-app
-    image: sevenwizz03.png
-    text: UX &amp UI · Mobile App
-  modal:
-    title: Image messaging mobile app
-    img_banner: sevenwizz00.png
-    description:
-      title_left_1: client
-      text_left_1: Multiwizz
-      title_left_2: Categories
-      text_left_2: UI · APP · Logo.
-      title_middle: Mobile App
-      text_middle: 7wizz is a multimedia image messaging app. The founder wanted 7wizz to be colourful and fun to use.
-      title_right: Involvement
-      text_right: User interaction. Creative director. Logo. Icons.
-    body:
-      title_1: " UI, logo and icons"
-      sub_1: A selection of the designs of this project
-      text_1: My work for Multiwizz consisted of designing the product and delivering UX (User Experience) and UI (User Interface). They have had great feedback from their customers about the fun usability and visual impact of their apps.
-      image_1: sevenwizz02.png
-
 Bostes NSW Australia:
-  idx: 6
+  idx: 5
   card:
     selector: creative-direction
     image: bostes.png
     text: Brand identity · Logo · Creative direction
   modal:
-    title: Branding - Board of Studies Teaching and Educational Standards NSW Australia, serves teachers and a million students
+    title: Branding - Board of Studies Teaching and Educational Standards NSW Australia, serves teachers and a million students.
     img_banner: bostes_ipad.png
     description:
       title_left_1: client
@@ -234,7 +245,7 @@ Bostes NSW Australia:
       image_7: bostes_style04.png
 
 Safebooking:
-  idx: 7
+  idx: 6
   card:
     selector: ux-ui mobile-app
     image: safebooking_intro.png
@@ -268,7 +279,7 @@ Safebooking:
       image_11: safebooking_app10.png
 
 Safebooking web:
-  idx: 8
+  idx: 7
   card:
     selector: ux-ui illustration
     image: safe_web.png
@@ -294,13 +305,13 @@ Safebooking web:
       image_3: safeweb04.png
 
 Monte-Carlo Player's Club App:
-  idx: 9
+  idx: 8
   card:
     selector: ux-ui mobile-app
     image: montecarlo_app00.png
     text: UX &amp UI · Web · Mobile App
   modal:
-    title: Design of Monte-Carlo's Players' Club app and website
+    title: Design of Monte-Carlo's Players' Club app and website.
     img_banner: montecarlo_web.png
     description:
       title_left_1: client
@@ -318,13 +329,13 @@ Monte-Carlo Player's Club App:
       image_1: montecarlo_player01.png
 
 Gallery Suvi Lehtinen:
-  idx: 10
+  idx: 9
   card:
     selector: creative-direction
     image: gallery0.png
     text: Art Direction · Print
   modal:
-    title: Artistic direction for the catalogues of the art gallery Suvi Lehtinen, Berlin
+    title: Artistic direction for the catalogues of the art gallery Suvi Lehtinen, Berlin.
     img_banner: gallery.png
     description:
       title_left_1: client
@@ -339,7 +350,7 @@ Gallery Suvi Lehtinen:
       title_1:
 
 Conservatoire National Supérieur de Musique de Paris:
-  idx: 11
+  idx: 10
   card:
     selector: creative-direction illustration
     image: cnsm.png
@@ -366,13 +377,13 @@ Conservatoire National Supérieur de Musique de Paris:
       image_5: cnsm04.png
 
 Madame Bovary book cover:
-  idx: 12
+  idx: 11
   card:
     selector: illustration
     image: bovary00.png
     text: Illustration · Print
   modal:
-    title: Design cover for Madame Bovary by Gustave Flaubert
+    title: Design cover for Madame Bovary by Gustave Flaubert.
     img_banner: bovary.png
     description:
       title_left_1: AWARDS
@@ -388,7 +399,7 @@ Madame Bovary book cover:
       sub_1:
 
 Mamichou Daily food store:
-  idx: 13
+  idx: 12
   card:
     selector: creative-direction illustration
     image: mamichou000.png
@@ -412,13 +423,13 @@ Mamichou Daily food store:
       image_2: mamichou02.png
 
 Book covers:
-  idx: 14
+  idx: 13
   card:
     selector: creative-direction
     image: cover.png
     text: Book · Print
   modal:
-    title: Book cover designs
+    title: Book cover designs.
     img_banner: cover04.jpg
     description:
       title_left_1: Book Covers
@@ -440,90 +451,72 @@ Book covers:
       image_7: cover07.jpg
       image_8: cover08.jpg
 
-Café Lomi:
+Au Depart:
+  idx: 14
+  card:
+    selector: creative-direction illustration
+    image: audepart.png
+    text: Creative Direction · Fashion Design
+  modal:
+    title: Creative direction for Au Départ, a leather good company established in 1834.
+    img_banner: audepart000.png
+    description:
+      title_left_1: client
+      text_left_1: Au Départ
+      title_left_2: Categories
+      text_left_2: Art Direction · Logo · Fashion Design · Visual Identity
+      title_middle: Creative direction for Au Départ
+      text_middle: Au Départ is a Parisian trunk-maker founded in Paris in 1834, selling luggage and travel goods. Au Départ is considered as one of the four greatest French trunk-makers alongside Louis Vuitton, Goyard and Moynat.
+      title_right: Involvement
+      text_right: Au Départ had been dormant for decades, so my mission was to prepare the revival of the brand. My work consisted of nurturing the development of the identity while respecting the brand''s DNA and essence. This included the reshaping of the logo, the monogram, and the creation of a new line of bags, trunk and leather goods.
+    body:
+      title_1: "The logo"
+      sub_1: The logo
+      image_1: audepart_logo.png
+      title_2: The monogramm
+      sub_2: Reshaping the monogram was very important; as with Vuitton or Goyard the monogram is essential to the brand identity.
+      image_2: audepart04.png
+      title_3: "Leather goods"
+      image_3: audepart01.png
+      title_4: Tote bag
+      image_4: audepart03.png
+      title_5: Trunk
+      image_5: audepart02.png
+      title_6: Visual identity
+      image_6: audepart05.png
+
+7Wizz:
   idx: 15
   card:
-    selector: ux-ui
-    image: lomi00.png
-    text: UX &amp UI · Web
+    selector: ux-ui mobile-app
+    image: sevenwizz03.png
+    text: UX &amp UI · Mobile App
   modal:
-    title: Cafe Lomi, Website
-    img_banner: lomi.png
+    title: Image messaging mobile app.
+    img_banner: sevenwizz00.png
     description:
       title_left_1: client
-      text_left_1: Lomi
-      title_middle: UX and UI
-      text_middle: Lomi is a coffee roaster and a coffee shop. I helped them creating a website that translate their skills and their art.
+      text_left_1: Multiwizz
       title_left_2: Categories
-      text_left_2: Product Design · Branding · Web.
+      text_left_2: UI · APP · Logo.
+      title_middle: Mobile App
+      text_middle: 7wizz is a multimedia image messaging app. The founder wanted 7wizz to be colourful and fun to use.
       title_right: Involvement
-      text_right: UX and UI. Web design.
+      text_right: User interaction. Creative director. Logo. Icons.
     body:
-      title_1: Wireframes, UX and UI
-      sub_1: A selection of the designs for this project
-      text_1: I created an elegant and simple website for Lomi, coffee brewer
-      image_1: lomi01.png
-      image_2: lomi02.png
-      image_3: lomi03.png
-      image_4: lomi04.png
-      image_5: lomi05.png
-      image_6: lomi06.png
-
-Lomi Machine:
-  idx: 16
-  card:
-    selector: ux-ui
-    image: lomimachine00.png
-    text: UX &amp UI · Web
-  modal:
-    title: Lomi Machine, Website
-    img_banner: lomimachine.png
-    description:
-      title_left_1: client
-      text_left_1: Lomi
-      title_middle: UX and UI - Creative Strategy
-      text_middle: Lomi is a coffee roaster, a coffee shop and started selling coffee machines for professionals. I helped them create two simple websites that translate their skills and their art with a modern approach.
-      title_left_2: Categories
-      text_left_2: Product Design · Branding · Web.
-      title_right: Involvement
-      text_right: UX and UI. Web design.
-    body:
-      text_1: At first when Lomi came to me they had a complex offer that they wanted to represent on their website. The idea was to have a website selling roasted coffee beans and equipments for individuals and professionals. After many brainstorming sessions, listing the features, hierarchyzation, priorization process and trade offs, we made the choice of separating the offer into two websites, one for the pros like restaurants and coffeeshops, one for individuals. Let''s see the story behind it.
-      title_1: Use case
-      image_1: lomimachine_usecase.png
-      title_2: Personas
-      text_2: There is two kinds of users, the professionals and the individuals. Here are the stories translated in english.
-      image_2: lomimachine_persona.png
-      title_3: Lomi User scenario
-      text_3: When an individual wants to shop at Lomi, he can go online or buy products at the coffeeshop. He can buy online coffee beans, small coffee equipments, and cupping trainings. At the coffee shop he can order a hot coffee or have lunch and get advices to buy coffee beans.
-      text_4: For a professional the option of going online to buy equipment or coffee beans is possible but at this point the clients always need to talk with someone to get a better understanding of the product they are buying but it is important that they can get already as many infos as they possible through the website and that they see the panel of machines that Lomi has to offer. After having chosen the equipment they can choose to buy the maintenance services or they can buy trainings at Lomi school for their employees to learn the art of coffee from the choice of the beans to the art of brewing. Another important point is that the coffee beans can be tailor-made for a client or even conceived with him. The coffee beans will be delivered by cargo bike to the restaurant or hotel every week.
-      image_3: lomimachine0.png
-      text_5: By classifying features and ordering them we came to the point that what was commun for individuals and professionals was the beans, the roasting, the story and the plantation. The ordering was not the same as profesionals because professionals would mainly talk directly to Lomi to order when individuals were are buying directly at the shop or can order online and the point was trying to raise the online sell. After ordering features in different orders, we decided that it would be too confusing for individuals to have access to professional equipments so we made the choice of splitting the offer into two websites.
-      image_4: lomimachine06.png
-      title_5: UX and UI, a selection of the designs for this project
-      text_5: Lomi Machine became the offers for professionals who needs hight quality equipements for their restaurants, hotels or coffee shops. We decided to go for an elegant and simple website for Lomi Machine that would leave space to the equipements. It was important that the offer would be very clear.
-      title_6: Home page
-      text_6: The design of this site was very much led by the wireframes. A solid UX & UI foundation had been laid out to cover all areas, content types and scenarios...
-      image_6: lomimachine01.png
-      title_7: Shop
-      text_7: The machines have many options and simplifying the features choices was a very important focus. We spent a lot of time classifying machines, their pieces and options to understand how to design it better. Depending on the option you click, you get an other list of options. We came to a point where a dynamic pull-down menu made in Ajax was an obvious answer.
-      image_7: lomimachine02.png
-      image_8: lomimachine03.png
-      image_9: lomimachine04.png
-      image_10: lomimachine05.png
-      title_11: Photography
-      text_11: A photography brief was created to get shots specifically for the new website. It massively contributed to the aesthetic of the website.
-      image_12: lomi05.png
-
+      title_1: " UI, logo and icons"
+      sub_1: A selection of the designs of this project
+      text_1: My work for Multiwizz consisted of designing the product and delivering UX (User Experience) and UI (User Interface). They have had great feedback from their customers about the fun usability and visual impact of their apps.
+      image_1: sevenwizz02.png
 
 Sublime House:
-  idx: 17
+  idx: 16
   card:
     selector: ux-ui
     image: sublime.png
     text: UX &amp UI · Web
   modal:
-    title: Sublime House, designing the website
+    title: Sublime House, designing the website.
     img_banner: sublime00.png
     description:
       title_left_1: client
