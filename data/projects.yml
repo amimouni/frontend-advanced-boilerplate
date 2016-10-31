@@ -17,37 +17,39 @@ Monte-Carlo:
       title_right: Involvement
       text_right: Artistic Director
     body:
-      title_1: The logo, rebranding with a modern approach
+      title_1: Creative direction
       text_1: I helped Monte-Carlo to realign their brand and visual identity to reflect their DNA. Their marketing collateral had become confused and fussy, so I helped them find a simpler, more confident approach immersed in their history.
-      image_1: logo_montecarlo.jpg
-      title_2: A selection of designs for this project
-      title_3: Illustration for the Hôtel Hermitage
-      image_2: montecarlo02.png
+      title_2: The logo, rebranding with a modern approach.
+      text_2: I made a search through the archives to understand the DNA of the brand and I proposed to use a font that was part of their DNA and used in the past in many of their posters. The story of the font Neutra and it's elegant touch works well with the historical and modern approach we wanted.
+      image_2: logo_montecarlo.jpg
+      title_3: A selection of designs for this project
+      text_3: Illustration for the Hôtel Hermitage
+      image_3: montecarlo02.png
       title_4: Menu created for the Salon Rose
-      image_3: montecarlo03.png
+      image_4: montecarlo03.png
       title_5: Menu created for the Train Bleu
-      image_4: montecarlo04.png
+      image_5: montecarlo04.png
       title_6: Menu created for the Sporting's 40th anniversary
-      image_5: montecarlo05.png
+      image_6: montecarlo05.png
       title_7: Logo created for the Sporting's 40th anniversary
-      image_6: montecarlo06.png
+      image_7: montecarlo06.png
       title_8: Logo creation for the renovations
-      image_7: montecarlo07.png
+      image_8: montecarlo07.png
       title_9: Logo for Monte-Carlo live; a website featuring information on concerts
-      image_8: montecarlo08.png
+      image_9: montecarlo08.png
       title_10: Poster for the end-of-year events
-      image_9: montecarlo09.png
+      image_10: montecarlo09.png
       title_11: Poster for the autumn concert season
-      image_10: montecarlo10.png
+      image_11: montecarlo10.png
       title_12: Logo for the 40th anniversary
-      image_11: montecarlo11.png
+      image_12: montecarlo11.png
       title_13: Pop up card for the best poker players
-      image_12: montecarlo12.png
-      image_13: montecarlo13.png
+      image_13: montecarlo12.png
+      image_14: montecarlo13.png
       title_14: VIP player's card
-      image_14: montecarlo14.png
+      image_15: montecarlo14.png
       title_15: Invitation for a private party
-      image_15: montecarlo15.png
+      image_16: montecarlo15.png
 
 Lomi - Websites:
   idx: 2
@@ -123,7 +125,7 @@ Starmatic - IOS mobile app:
   idx: 3
   card:
     selector: ux-ui mobile-app
-    image: starmatic00.png
+    image: starmatic0000.png
     text: UX &amp UI · Mobile App
   modal:
     title: Product design of Starmatic, a toy-camera app and photo-sharing experience.
@@ -139,21 +141,53 @@ Starmatic - IOS mobile app:
       text_right: Product Designer. User experience (UX). User interface (UI). Creative Director.
     body:
       image_1: starmatic_welcome.png
-      title_1: "Wireframe, UX and UI"
-      sub_1: A selection of the screens designed for this project
-      image_2: starmatic01.png
-      title_2: "Mobile template designs"
+      title_1: The legendary Kodak Brownie Starmatic
       text_1: Starmatic is a toy-camera app and visual creativity platform based on the legendary Kodak Brownie Starmatic. The app crafts a new visual and social experience by putting picture and user experience quality center stage, while simultaneously modeling a much beloved toy camera from Eastman Kodak made during the late 1950s. Fun to use, but with deep feature set, Starmatic is designed to attract serious iPhoneographers as well as entry mobile photo enthusiasts.
-      image_3: starmatic02.png
-      text_3: The filters are grouped as rolls of film (a wink to the 127 negatives used by Starmatic cameras) and the app even comes with the “Starmacolor” film, featuring 16 filters for a variety of color processing not found in previous apps - a differentiator that took several extra months developing in iOS and that was done in collaboration with experienced iPhoneographers and Brownie lovers.
-      image_4: starmaticfilters.png
-      image_5: starmatic03.png
-      text_4: A focus on qualitative experience rather than quantitative. Like Vimeo vs. Youtube, or 500px vs. Flickr. Discovery section highlights trending tags, photos near you and most interesting users of the moment. Search tool browses to easily find pictures, tags and users and all results within one screen.
-      image_6: starmatic04.png
-      text_5: Unique gestures for browsing between pictures and within picture streams. Repost others pictures and easily track/organize favorites. Users instantly see others most liked and favorited.
-      image_7: starmatic05.png
-      text_7: A camera app that emulates functions and the feel of the legendary Starmatic camera. Square, portrait and landscape pictures can all be imported. Vertical pictures can be viewed on full screen. Rich offer of filters, organized by family in a playful manner, and planned to grow.
-      image_8: starmatic06.png
+      title_2: Customer Insights & Ideation
+      text_2: I partnered with the founders and one other designer to uncover insights and translate concepts into features that address customer behaviours and motivations.
+      title_3: Experience Strategy & Vision
+      text_3: I created frameworks and prototypes to share the vision, design principles and content strategy. This helped to evangelise ideas, gain alignment and drive decision making.
+      title_4: Planning & Scope Definition
+      text_4: Meeting with key stakeholders into the workshops finding the right answers helped us to understand their business challenges. Together we identified risks and aligned on expectations and constructed a shared vision for the App. To differentiate ourselves in an already competitive market, we needed to define a desirable role for the website. We were thrilled by the opportunity to create something more meaningful.
+      title_5: Oversight & Coordination
+      text_5: I collaborated with the other designer and the founders to translate product features for each context. Working in a collaborative culture, we opted for a lean approach that emphasized rapid sketching, prototyping, user feedback and design mockups. It created early team‐wide alignment, sparked tons of great ideas and created a strong sense of ownership across different disciplines within the team.
+      title_6: Design Execution & Validation
+      text_6: I designed down on iOS and I executed journeys, wireframes, prototypes and design specs.
+      title_7: Customer Insights
+      text_7: We conducted customer and market research to drive our planning phase.
+      title_8: The iphonographers
+      text_8: The primary segments are customers that takes photographies with their iphone and that takes it seriously. Starmatic is designed to attract serious iPhoneographers as well as entry mobile photo enthusiasts. The idea behind Starmatic is to create a unique community where anybody can express its photographic talent and to develop it by being inspired by photos of others users.
+      title_9: Introducing Starmatic
+      image_9: starmatic_intro.png
+      title_10: The vision
+      text_10: Our vision for Starmatic was to be the best photo app and social network service for iphonographers. The app crafts a new visual and social experience by putting picture and user experience quality center stage, while simultaneously modeling a much beloved toy camera from Eastman Kodak made during the late 1950s. Fun to use, but with deep feature set, Starmatic is designed to attract serious iPhoneographers as well as entry mobile photo enthusiasts. Our users expect and trust us to know them. We envisioned the future of the photo-sharing service to be deeply personalised to customers' photos tastes. Quality is what we wanted customers to shout about.
+      title_11: The navigation
+      text_11: We have tried to recreate the feeling that you experience when browsing beautiful lifestyle magazines or photo books. Unique gestures for browsing between pictures and within picture streams. Photos are displayed as a grid, and with the app’s infinite scroll feature, users can keep swiping until they find an image they want to open. The process is extremely fluid. Once a photo is opened, whether from the featured page or from an individual’s profile, users can swipe back and forth between photos.
+      image_11: starmatic03.png
+      image_12: starmatic05.png
+      image_13: starmatic_tips.png
+      title_14: The search tool
+      text_14: A focus on qualitative experience rather than quantitative. Like Vimeo vs. Youtube, or 500px vs. Flickr. Discovery section highlights trending tags, photos near you and most interesting users of the moment. Search tool browses to easily find pictures, tags and users and all results within one screen. We opted for an infinite scrolling in the feeds, and a swiping through the pictures.
+      image_14: starmatic04.png
+      title_15: Sharing
+      text_15: Repost others pictures and easily track/organize favorites. Users instantly see others most liked and favorited. allowing them to repost other users photography. Images that are reposted will appear in user's feed with a little repost icon in the top right hand corner, and when you open up the actual image, it goes to the original image.
+      image_15: starmatic_sharingnotif.png
+      title_16: The camera
+      text_16: A camera app that emulates functions and the feel of the legendary Starmatic camera. Square, portrait and landscape pictures can all be imported. Vertical pictures can be viewed on full screen. Rich offer of filters, organized by family in a playful manner, and planned to grow.
+      image_16: starmatic01.png
+      title_17: The filters
+      text_17: Several editing features and filters set Starmatic apart from the current crop of iPhone photo apps. The filters are grouped as rolls of film (a wink to the 127 negatives used by Starmatic cameras) and the app even comes with the "Starmacolor" film, featuring 16 filters for a variety of color processing not found in previous apps -- a differentiator that took several extra months developing in iOS and that was done in collaboration with experienced iPhoneographers and Brownie lovers.
+      text_18: For more demanding users, the "Starmachrome" film features 10 filters offering a soft and elegant color palette and subtle contrasts which are available to download as in-app purchases for 0.79€ or 0.99$. More films will be available soon to satisfy all photographer's unique tastes like a black & white film, etc.
+      image_18: starmatic02.png
+      image_19: starmaticfilters.png
+      title_20: UX and UI
+      text_20: A selection of the screens search designed for this project
+      title_21: The icon set
+      image_20: starmatic_iconset.png
+      image_21: starmatic06.png
+      image_31: starmatic_camerasearch.png
+      image_32: starmatic_headlinessearch.png
+      image_33: starmatic_profil.png
 
 Belber:
   idx: 4
@@ -174,8 +208,9 @@ Belber:
       title_right: Involvement
       text_right: Art Director. Product Designer. Creative Director. Logo.
     body:
-      title_1: Artistic direction, logo re-creation and design of leather goods lines.
-      sub_1: A selection of the designs of this project
+      title_1: Artistic direction and fashion design
+      text_1: I was in charge of the creation of Belber's new visual identity, which was getting ready to be relaunched. I revisited the design codes of this sleeping brand by digging into Belber''s history in order to make it desirable again.
+      title_2: A selection of the designs of this project
       image_1: belber03.png
       title_4: "Personalisation on luggages"
       sub_4: I created a lettring system and color system for personalisation
