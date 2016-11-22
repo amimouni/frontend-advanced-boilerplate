@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(n){$(this).scrollTop()>300?$(".navbar-wagon").css({"margin-top":"-70px"}):$(".navbar-wagon").css({"margin-top":"0"})})});

@@ -1,0 +1,1 @@
+setTimeout(function(){$(".bar").each(function(t){var n=$(this);$(this).append('<span class="count"></span>'),setTimeout(function(){n.css("width",n.attr("data-percent"))},100*t)}),$(".count").each(function(){$(this).prop("Counter",0).animate({Counter:$(this).parent(".bar").attr("data-percent")},{duration:2e3,easing:"swing",step:function(t){}})})},500);

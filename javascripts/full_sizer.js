@@ -1,0 +1,1 @@
+$(document).ready(function(){function i(){windowHeight=$(window).innerHeight(),$(".window-full-sized").css("min-height",windowHeight)}i(),$(window).resize(function(){i()})});
