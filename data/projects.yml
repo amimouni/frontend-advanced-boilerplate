@@ -194,60 +194,60 @@ Starmatic - IOS mobile app:
       image_32: starmatic_headlinessearch.png
       image_33: starmatic_profil.png
 
-Belber:
-  idx: 4
-  card:
-    selector: creative-direction illutration
-    image: belber_blackbag.jpg
-    text: Creative Direction · Fashion Design
-  modal:
-    title: Belber - The revival of a sleeping beauty.
-    img_banner: belber_logo.jpg
-    description:
-      title_left_1: client
-      text_left_1: Belber
-      title_left_2: Categories
-      text_left_2: Art Direction · Fashion Design.
-      title_middle: Creative direction of Belber
-      text_middle: Belber, the Philadelphia-born trunk maker and luggage specialist that became the world’s largest luggage manufacturer in the first half of the 20th century, returns as a unisex leather goods brand after being dormant for 4 decades. I worked on the revival of the brand, revamping visual identity. I also designed new lines of bags and accessories, bringing the original brand and its values back to life.
-      title_right: Involvement
-      text_right: Art Director. Product Designer. Creative Director. Logo.
-    body:
-      title_1: Artistic direction and fashion design
-      text_1: I was in charge of the creation of Belber's new visual identity, which was getting ready to be relaunched. I revisited the design codes of this sleeping brand by digging into Belber''s history in order to make it desirable again.
-      title_2: A selection of the designs of this project
-      image_1: belber03.png
-      title_4: "Personalisation on luggages"
-      sub_4: I created a lettring system and color system for personalisation
-      image_4: belber04.png
-      image_5: belber05.png
-      image_6: belber06.png
-      title_6: "Packaging"
-      sub_6: A trendy, smart and colorfull packaging
-      image_7: belber07.png
-      title_7: Visual identity
-      image_8: belber08.png
-      title_9: Logo illustrated
-      sub_9: Colored illustration
-      image_9: belber09.png
-      title_10: Study of shapes
-      sub_10: This is an exemple of research I did on the accessories and bag design.
-      image_10: belber10.png
-      title_11: Collaterals
-      sub_11: To help Belber communicate, I created a range of collaterals to represent the essence of the brand, elegant and ancestral.
-      image_11: belber11.png
-      title_12: Frontdoor, watercolor
-      sub_12: This is an inspirationnal watercolor for the shop.
-      image_12: belber12.png
-      title_13: Bags, suitcase and leather goods
-      sub_13: Design of lines inspired by the collections from the past century.
-      image_13: belber13.png
-      image_14: belber14.png
-      image_15: belber15.png
-      image_16: belber16.png
-      image_17: belber17.png
-      image_18: belber18.png
-      image_19: belber19.png
+# Belber:
+#   idx: 4
+#   card:
+#     selector: creative-direction illutration
+#     image: belber_blackbag.jpg
+#     text: Creative Direction · Fashion Design
+#   modal:
+#     title: Belber - The revival of a sleeping beauty.
+#     img_banner: belber_logo.jpg
+#     description:
+#       title_left_1: client
+#       text_left_1: Belber
+#       title_left_2: Categories
+#       text_left_2: Art Direction · Fashion Design.
+#       title_middle: Creative direction of Belber
+#       text_middle: Belber, the Philadelphia-born trunk maker and luggage specialist that became the world’s largest luggage manufacturer in the first half of the 20th century, returns as a unisex leather goods brand after being dormant for 4 decades. I worked on the revival of the brand, revamping visual identity. I also designed new lines of bags and accessories, bringing the original brand and its values back to life.
+#       title_right: Involvement
+#       text_right: Art Director. Product Designer. Creative Director. Logo.
+#     body:
+#       title_1: Artistic direction and fashion design
+#       text_1: I was in charge of the creation of Belber's new visual identity, which was getting ready to be relaunched. I revisited the design codes of this sleeping brand by digging into Belber''s history in order to make it desirable again.
+#       title_2: A selection of the designs of this project
+#       image_1: belber03.png
+#       title_4: "Personalisation on luggages"
+#       sub_4: I created a lettring system and color system for personalisation
+#       image_4: belber04.png
+#       image_5: belber05.png
+#       image_6: belber06.png
+#       title_6: "Packaging"
+#       sub_6: A trendy, smart and colorfull packaging
+#       image_7: belber07.png
+#       title_7: Visual identity
+#       image_8: belber08.png
+#       title_9: Logo illustrated
+#       sub_9: Colored illustration
+#       image_9: belber09.png
+#       title_10: Study of shapes
+#       sub_10: This is an exemple of research I did on the accessories and bag design.
+#       image_10: belber10.png
+#       title_11: Collaterals
+#       sub_11: To help Belber communicate, I created a range of collaterals to represent the essence of the brand, elegant and ancestral.
+#       image_11: belber11.png
+#       title_12: Frontdoor, watercolor
+#       sub_12: This is an inspirationnal watercolor for the shop.
+#       image_12: belber12.png
+#       title_13: Bags, suitcase and leather goods
+#       sub_13: Design of lines inspired by the collections from the past century.
+#       image_13: belber13.png
+#       image_14: belber14.png
+#       image_15: belber15.png
+#       image_16: belber16.png
+#       image_17: belber17.png
+#       image_18: belber18.png
+#       image_19: belber19.png
 
 Bostes NSW Australia:
   idx: 5
@@ -491,39 +491,39 @@ Book covers:
       image_7: cover07.jpg
       image_8: cover08.jpg
 
-Au Depart:
-  idx: 14
-  card:
-    selector: creative-direction illustration
-    image: audepart.png
-    text: Creative Direction · Fashion Design
-  modal:
-    title: Creative direction for Au Départ, a leather good company established in 1834.
-    img_banner: audepart000.png
-    description:
-      title_left_1: client
-      text_left_1: Au Départ
-      title_left_2: Categories
-      text_left_2: Art Direction · Logo · Fashion Design · Visual Identity
-      title_middle: Creative direction for Au Départ
-      text_middle: Au Départ is a Parisian trunk-maker founded in Paris in 1834, selling luggage and travel goods. Au Départ is considered as one of the four greatest French trunk-makers alongside Louis Vuitton, Goyard and Moynat.
-      title_right: Involvement
-      text_right: Au Départ had been dormant for decades, so my mission was to prepare the revival of the brand. My work consisted of nurturing the development of the identity while respecting the brand''s DNA and essence. This included the reshaping of the logo, the monogram, and the creation of a new line of bags, trunk and leather goods.
-    body:
-      title_1: "The logo"
-      sub_1: The logo
-      image_1: audepart_logo.png
-      title_2: The monogramm
-      sub_2: Reshaping the monogram was very important; as with Vuitton or Goyard the monogram is essential to the brand identity.
-      image_2: audepart04.png
-      title_3: "Leather goods"
-      image_3: audepart01.png
-      title_4: Tote bag
-      image_4: audepart03.png
-      title_5: Trunk
-      image_5: audepart02.png
-      title_6: Visual identity
-      image_6: audepart05.png
+# Au Depart:
+#   idx: 14
+#   card:
+#     selector: creative-direction illustration
+#     image: audepart.png
+#     text: Creative Direction · Fashion Design
+#   modal:
+#     title: Creative direction for Au Départ, a leather good company established in 1834.
+#     img_banner: audepart000.png
+#     description:
+#       title_left_1: client
+#       text_left_1: Au Départ
+#       title_left_2: Categories
+#       text_left_2: Art Direction · Logo · Fashion Design · Visual Identity
+#       title_middle: Creative direction for Au Départ
+#       text_middle: Au Départ is a Parisian trunk-maker founded in Paris in 1834, selling luggage and travel goods. Au Départ is considered as one of the four greatest French trunk-makers alongside Louis Vuitton, Goyard and Moynat.
+#       title_right: Involvement
+#       text_right: Au Départ had been dormant for decades, so my mission was to prepare the revival of the brand. My work consisted of nurturing the development of the identity while respecting the brand''s DNA and essence. This included the reshaping of the logo, the monogram, and the creation of a new line of bags, trunk and leather goods.
+#     body:
+#       title_1: "The logo"
+#       sub_1: The logo
+#       image_1: audepart_logo.png
+#       title_2: The monogramm
+#       sub_2: Reshaping the monogram was very important; as with Vuitton or Goyard the monogram is essential to the brand identity.
+#       image_2: audepart04.png
+#       title_3: "Leather goods"
+#       image_3: audepart01.png
+#       title_4: Tote bag
+#       image_4: audepart03.png
+#       title_5: Trunk
+#       image_5: audepart02.png
+#       title_6: Visual identity
+#       image_6: audepart05.png
 
 7Wizz:
   idx: 15
